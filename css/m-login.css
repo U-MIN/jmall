@@ -1,0 +1,24 @@
+@media screen and (max-width:480px){
+    #l-container .center {
+        width:100%; margin:0 auto;
+        text-align: center;
+    }
+    
+    .snsLogin { margin-bottom: 40px;}
+    .snsLogin p {
+        color:#111; margin:10px 0;
+    }
+    .snsLogin a { 
+        display: inline-block;
+        width:130px; margin:0 10px 10px;
+        height:30px; line-height: 30px;
+        color:#fff; font-weight: bold;
+    }
+    .snsLogin a:nth-child(2){
+        background-color: #2db400;
+    }
+    .snsLogin a:nth-child(3){
+        background-color: #3b5999;
+    }
+    
+}

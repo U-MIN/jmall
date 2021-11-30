@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장가몰</title>
+    <!-- 파비콘 -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-32x32.png">
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/m-style.css">
+    <!-- script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/mvisual.js"></script>
+    <script src="js/cateP.js"></script>
+    <script src="js/tSale.js"></script>
+    <script src="js/nDeal.js"></script>
+
+
+
+</head>
+<body>
+    <div id="header">
+        <div class="h-pop">
+            <div class="center">
+                <h2>지금 가입하면 5천원 할인 쿠폰 증정</h2><button class="btn-pop"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="h-top">
+                <ul>
+                    <li><a href="login.php">로그인</a></li>
+                    <li><a href="joinpage.php">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <div class="h-cont">
+                <h1><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+                <div class="srch-wrap">
+                    <input type="text" placeholder="" id="dvSrhBar" class="srhBar">
+                    <a href="#"><img src="img/header/ico-srch.png" alt="" id="dvSrhImg"></a>
+                </div>
+                <div class="personal-menu">
+                    <a href="#"><img src="img/header/ico-personal-menu1.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu2.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu3.png" alt=""></a>
+                </div>
+            </div>
+            <div class="m-h-cont"> <!-- 768px부터 적용-->
+                <div class="m-gnb">
+                    <div class="gnb">
+                        <a href="#" class="m-gnbBtn">
+                            <img src="img/header/ico-gnb-open.png">
+                        </a>
+                    </div>                
+                </div>
+                <h1><a href="index.html"><p>건강식품전물몰</p><img src="img/logo.png" alt=""></a></h1>
+                <div class="personal-menu">
+                    <a href="#"><img src="img/header/ico-personal-menu1.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu2.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="gnb-wrap">
+            <div class="center">
+                <div class="gnb">
+                    <span class="gnbBtn">
+                        <img src="img/header/ico-gnb-open.png">
+                        <a href="#">전체메뉴</a>
+                    </span>
+                    <!-- Slider main container -->
+                    <div class="swiper header-gnb gnb-main">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide gnb-main-menu"><a href="#">베스트</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">특별할인전</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">제주쇼핑♥</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">매장픽업</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">맞춤상품</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">특별포장</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">해외브랜드관</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">이벤트</a></div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="gnb-drop">
+                    <div class="gnb-1d">
+                        <h2 class="on" data-num="0"><a href="#">장가</a></h2>
+                        <h2 data-num="1"><a href="#">No.1 건강기능식품</a></h2>
+                        <h2 data-num="2"><a href="#">헬스푸드</a></h2>
+                        <h2 data-num="3"><a href="#">안심먹거리</a></h2>
+                        <h2 data-num="4"><a href="#">건강이야기</a></h2>
+                    </div>
+                    <div class="gnb-2d-box">
+                        <ul>
+                            <li><a href="#">홍삼</a></li>
+                            <li><a href="#">녹용</a></li>
+                            <li><a href="#">여성남성</a></li>
+                            <li><a href="#">키즈청소년</a></li>
+                            <li><a href="#">알파프로젝트</a></li>
+                            <li><a href="#">선물세트</a></li>
+                            <li><a href="#">굿베이스</a></li>
+                            <li><a href="#">지니펫</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">장 건강</a></li>
+                            <li><a href="#">눈 건강</a></li>
+                            <li><a href="#">비타민류</a></li>
+                            <li><a href="#">혈관 건강</a></li>
+                            <li><a href="#">간 건강</a></li>
+                            <li><a href="#">피부 건강</a></li>
+                            <li><a href="#">체지방 감소</a></li>
+                            <li><a href="#">관절/뼈 건강</a></li>
+                            <li><a href="#">기억력/인지력 개선</a></li>                           
+                        </ul>
+                        <ul>
+                            <li><a href="#">뉴트리푸드</a></li>
+                            <li><a href="#">뷰티푸드</a></li>
+                            <li><a href="#">컬러푸드</a></li>
+                            <li><a href="#">식사대용푸드</a></li>
+                            <li><a href="#">간편푸드(간식/차/음료)</a></li>
+                            <li><a href="#">헬스/단백질</a></li>
+                            <li><a href="#">환자영양식/체중조절식</a></li>
+                            <li><a href="#">비건푸드</a></li>
+                            <li><a href="#">선물세트</a></li>                          
+                        </ul>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#">JQ인증 단독관</a></li>
+                            <li><a href="#">ORGA 브랜드관</a></li>
+                            <li><a href="#">식사대용푸드</a></li>
+                            <li><a href="#">설성목장 브랜드관</a></li>
+                            <li><a href="#">냉장/냉동 간편식</a></li>
+                            <li><a href="#">간편식</a></li>
+                            <li><a href="#">농산품</a></li>
+                            <li><a href="#">면/양념/오일</a></li>
+                            <li><a href="#">음료/간식</a></li>
+                            <li><a href="#">축산품</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-gnb-wrap">
+        <div class="m-gnb-top">
+            <p>장몰에 오신것을 환영합니다</p>
+            <a class="m-close" href="#"><i class="fas fa-times"></i></a>
+        </div>
+        <ul class="m-gnb-util">
+            <li><a href="login.php">로그인</a></li>
+            <li><a href="joinpage.php">회원가입</a></li>
+            <li><a href="#">주문/배송</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+        <div class="m-gnb-title">전체메뉴</div>
+        <div class="gnb-drop">
+            <div class="m-gnb-1d">
+                <h2 class="on" data-num="0"><a href="#">장가</a></h2>
+                <h2 data-num="1"><a href="#">No.1 건강기능식품</a></h2>
+                <h2 data-num="2"><a href="#">헬스푸드</a></h2>
+                <h2 data-num="3"><a href="#">안심먹거리</a></h2>
+                <h2 data-num="4"><a href="#">건강이야기</a></h2>
+            </div>
+            <div class="m-gnb-2d-box">
+                <ul>
+                    <li><a href="#">홍삼</a></li>
+                    <li><a href="#">녹용</a></li>
+                    <li><a href="#">여성남성</a></li>
+                    <li><a href="#">키즈청소년</a></li>
+                    <li><a href="#">알파프로젝트</a></li>
+                    <li><a href="#">선물세트</a></li>
+                    <li><a href="#">굿베이스</a></li>
+                    <li><a href="#">지니펫</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">장 건강</a></li>
+                    <li><a href="#">눈 건강</a></li>
+                    <li><a href="#">비타민류</a></li>
+                    <li><a href="#">혈관 건강</a></li>
+                    <li><a href="#">간 건강</a></li>
+                    <li><a href="#">피부 건강</a></li>
+                    <li><a href="#">체지방 감소</a></li>
+                    <li><a href="#">관절/뼈 건강</a></li>
+                    <li><a href="#">기억력/인지력 개선</a></li>                           
+                </ul>
+                <ul>
+                    <li><a href="#">뉴트리푸드</a></li>
+                    <li><a href="#">뷰티푸드</a></li>
+                    <li><a href="#">컬러푸드</a></li>
+                    <li><a href="#">식사대용푸드</a></li>
+                    <li><a href="#">간편푸드(간식/차/음료)</a></li>
+                    <li><a href="#">헬스/단백질</a></li>
+                    <li><a href="#">환자영양식/체중조절식</a></li>
+                    <li><a href="#">비건푸드</a></li>
+                    <li><a href="#">선물세트</a></li>                          
+                </ul>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">JQ인증 단독관</a></li>
+                    <li><a href="#">ORGA 브랜드관</a></li>
+                    <li><a href="#">식사대용푸드</a></li>
+                    <li><a href="#">설성목장 브랜드관</a></li>
+                    <li><a href="#">냉장/냉동 간편식</a></li>
+                    <li><a href="#">간편식</a></li>
+                    <li><a href="#">농산품</a></li>
+                    <li><a href="#">면/양념/오일</a></li>
+                    <li><a href="#">음료/간식</a></li>
+                    <li><a href="#">축산품</a></li>                            
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="mVisual">
+            <div class="view">
+                <div class="slide">
+                    <div class="bg"></div>
+                    <div class="bg"></div>
+                    <div class="bg"></div>
+                    <div class="bg"></div>
+                    <div class="bg"></div>
+                    <div class="bg"></div>
+                    <div class="bg"></div>
+                </div>
+                <div class="btnTab">
+                    <div class="center">
+                        <div class="btnTab-base">
+                            <p>건강식품</p>
+                            <div class="tabUp">
+                                <div data-view="0"><a href="#">정몰툰 혈행건강 편</a></div>
+                                <div data-view="1"><a href="#">다이어트 모음전</a></div>
+                            </div>
+                            <div class="tabOver">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="btnTab-base">
+                            <p>안심먹거리</p>
+                            <div class="tabUp">
+                                <div data-view="2"><a href="#">셀렉스 특가전</a></div>
+                                <div data-view="3"><a href="#">소상공인 모음전</a></div>
+                                <div data-view="4"><a href="#">농림축산식품부 인증관</a></div>
+                            </div>
+                            <div class="tabOver">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="btnTab-base">
+                            <p>이벤트</p>
+                            <div class="tabUp">
+                                <div data-view="5">
+                                    <a href="#">11월 건강이야기</a>
+                                </div>
+                                <div data-view="6">
+                                    <a href="#">다독다독이벤트</a>
+                                </div>
+                            </div>
+                            <div class="tabOver">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="viewCount">
+                <span class="current">1 </span><span class="totalCount">/ 7</span>
+            </div>
+            <div class="prevBtn"><img src="img/main-slide/ico-arrow-mslide-prev.png"></div>
+            <div class="nextBtn"><img src="img/main-slide/ico-arrow-mslide-next.png"></div>
+        </div>
+        <div id="cateP">
+            <div class="center">
+                <div class="cateP-title">
+                    <p>화장실 가는 시간을 즐겁게</p>
+                    <p>쌩쌩한 하루를 위한 습관</p>
+                    <p>눈건강을 위한 착한 습관</p>
+                    <p>활력있는 생활을 위한 튼튼한 관리</p>
+                    <p>프로폴리스로 건강한 하루시작</p>
+                </div>
+                <div class="cateP-menu">
+                    <!-- Slider main container -->
+                    <div class="swiper cateP-menu-swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper cateP-btn-swiper">
+                            <!-- Slides -->
+                            <div class="swiper-slide cateP-btn on"><a href="#">#프로바이오틱스</a></div>
+                            <div class="swiper-slide cateP-btn"><a href="#">#멀티비타민</a></div>
+                            <div class="swiper-slide cateP-btn"><a href="#">#루테인</a></div>  
+                            <div class="swiper-slide cateP-btn"><a href="#">#칼마디</a></div>  
+                            <div class="swiper-slide cateP-btn"><a href="#">#프로폴리스</a></div>                           
+                        </div>
+                    </div>
+                </div>
+                <div class="cateP-main">
+                    <div class="catep-pdtWrap">
+                        <div class="catep-pdt catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/01/1_1.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">종근당</p>
+                                    <p class="name">프리바이오틱스 프락토올리고당 6박스</p>
+                                    <div class="price">
+                                        <p class="p-red">51,900원</p>
+                                        <p class="p-gray">120,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/01/1_2.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">컬처렐</p>
+                                    <p class="name">한독 다이제스티브 헬스 1개월</p>
+                                    <div class="price">
+                                        <p class="p-red">25,000원</p>
+                                        <p class="p-gray">45,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/01/1_3.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">세노비스</p>
+                                    <p class="name">수퍼바이오틱스 Lp299v 유산균 (30캡슐/30일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">29,200원</p>
+                                        <p class="p-gray">38,000원</p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/01/1_4.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">드시모네</p>
+                                    <p class="name">365 캡슐(30캡슐)x1박스</p>
+                                    <div class="price">
+                                        <p class="p-red">48,000원</p>
+                                        <p class="p-gray"></p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catep-pdt1 catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/01/1_5.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">비타민마을</p>
+                                    <p class="name">퍼펙트바이오틱스 슈퍼 프로바이오틱스 19 4박스 120포</p>
+                                    <div class="price">
+                                        <p class="p-red">14,900원</p>
+                                        <p class="p-gray">35,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/01/1_6.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">비타민하우스</p>
+                                    <p class="name">프리바이오틱스 1박스 (1박스 100포)</p>
+                                    <div class="price">
+                                        <p class="p-red">25,900원</p>
+                                        <p class="p-gray">50,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/01/1_7.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">락피도</p>
+                                    <p class="name">프로바이오틱스 우먼 30포(30일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">21,900원</p>
+                                        <p class="p-gray">37,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/01/1_7.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">알파프로젝트</p>
+                                    <p class="name">장건강온 1박스 (2주분)</p>
+                                    <div class="price">
+                                        <p class="p-red">21,000원</p>
+                                        <p class="p-gray"></p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catep-pdtWrap">
+                        <div class="catep-pdt catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/02/2_1.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">얼라이브</p>
+                                    <p class="name">원스데일리 60정 / 2개월분</p>
+                                    <div class="price">
+                                        <p class="p-red">19,900원</p>
+                                        <p class="p-gray">35,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/02/2_2.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">네이처메이드</p>
+                                    <p class="name">액티브 데일리 멀티 포 우먼 (120정/2개월분)</p>
+                                    <div class="price">
+                                        <p class="p-red">31,900원</p>
+                                        <p class="p-gray">35,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/02/2_3.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">자미에슨</p>
+                                    <p class="name">츄어블 멀티비타민  60정(60일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">12,500원</p>
+                                        <p class="p-gray">20,900원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/02/2_3.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">알파프로젝트</p>
+                                    <p class="name">멀티비타민미네랄 30정 (30일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">10,200원</p>
+                                        <p class="p-gray">12,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catep-pdt1 catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/02/2_5.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">GNC</p>
+                                    <p class="name">트리플액션 60캡슐 (종합비타민+오메가3+루테인) 30일분 x 2개</p>
+                                    <div class="price">
+                                        <p class="p-red">40,900원</p>
+                                        <p class="p-gray">100,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/02/2_6.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">세노비스</p>
+                                    <p class="name">트리플러스맨 (90캡슐/45일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">44,300원</p>
+                                        <p class="p-gray">49,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/02/2_7.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">고려은단</p>
+                                    <p class="name">퀄리티멀티비타민 120정(4개월분)</p>
+                                    <div class="price">
+                                        <p class="p-red">29,900원</p>
+                                        <p class="p-gray">49,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/02/2_8.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">메디로그</p>
+                                    <p class="name">올라운드 멀티비타 30포 (1개월분)</p>
+                                    <div class="price">
+                                        <p class="p-red">39,000원</p>
+                                        <p class="p-gray">89,800원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catep-pdtWrap">
+                        <div class="catep-pdt catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/03/3_1.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">안국건강</p>
+                                    <p class="name">루테인지아잔틴미니 120캡슐+(증)콜라겐츄 1봉지+쇼핑백</p>
+                                    <div class="price">
+                                        <p class="p-red">29,900원</p>
+                                        <p class="p-gray">39,900원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/03/3_2.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">세노비스</p>
+                                    <p class="name">루테인+오메가3 60+20캡슐 더! (총 80캡슐) x 2개+(미니)x1 증정</p>
+                                    <div class="price">
+                                        <p class="p-red">57,100원</p>
+                                        <p class="p-gray">84,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/03/3_3.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">알파프로젝트</p>
+                                    <p class="name">루테인 30캡슐 (30일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">10,200원</p>
+                                        <p class="p-gray">12,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/03/3_4.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">나우푸드</p>
+                                    <p class="name">루테인 지아잔틴 맥스 30캡슐 (30일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">15,500원</p>
+                                        <p class="p-gray">26,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catep-pdt1 catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/03/3_5.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">내츄럴플러스</p>
+                                    <p class="name">루테인 오메가 비타민A 60캡슐(60일분)*2박스</p>
+                                    <div class="price">
+                                        <p class="p-red">19,900원</p>
+                                        <p class="p-gray">40,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/03/3_6.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">네이처셋</p>
+                                    <p class="name">한독 루테인 아스타잔틴 캡슐 1개월</p>
+                                    <div class="price">
+                                        <p class="p-red">17,900원</p>
+                                        <p class="p-gray">24,900원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/03/3_7.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">닥터엘리자베스</p>
+                                    <p class="name">눈건강 루테인 솔루션 60캡슐(60일분)*3박스</p>
+                                    <div class="price">
+                                        <p class="p-red">35,000원</p>
+                                        <p class="p-gray">150,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/03/3_8.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">메이플트리</p>
+                                    <p class="name">루테인 2.0 90캡슐(90일분)*2통</p>
+                                    <div class="price">
+                                        <p class="p-red">27,800원</p>
+                                        <p class="p-gray">40,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catep-pdtWrap">
+                        <div class="catep-pdt catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/04/4_1.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">네이처메이드</p>
+                                    <p class="name">칼슘, 마그네슘, 아연, 비타민D 180정(60일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">22,800원</p>
+                                        <p class="p-gray">325,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/04/4_2.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">블랙모어스</p>
+                                    <p class="name">칼슘 마그네슘 플러스 비타민D 60정 new</p>
+                                    <div class="price">
+                                        <p class="p-red">24,900원</p>
+                                        <p class="p-gray">34,900원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/04/4_3.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">알파프로젝트</p>
+                                    <p class="name">칼슘마그네슘비타민D 60정 (30일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">12,325원</p>
+                                        <p class="p-gray">14,500원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/04/4_4.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">얼라이브</p>
+                                    <p class="name">칼슘 마그네슘 비타민D 90정 / 45일분</p>
+                                    <div class="price">
+                                        <p class="p-red">21,900원</p>
+                                        <p class="p-gray">35,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catep-pdt1 catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/04/4_5.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">메이플트리</p>
+                                    <p class="name">칼마디 플러스 아연 90정</p>
+                                    <div class="price">
+                                        <p class="p-red">13,900원</p>
+                                        <p class="p-gray"></p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/04/4_6.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">솔가</p>
+                                    <p class="name">칼슘 600 위드 비타민 D3 120정*2통</p>
+                                    <div class="price">
+                                        <p class="p-red">56,500원</p>
+                                        <p class="p-gray">84,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/04/4-7.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">한미헬스케어</p>
+                                    <p class="name">한미 칼슘 마그네슘 아연 비타민D 90정(90일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">14,900원</p>
+                                        <p class="p-gray">21,900원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/04/4_8.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">종근당</p>
+                                    <p class="name">칼슘 앤 마그네슘 비타민D 아연 180정(90일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">13,900원</p>
+                                        <p class="p-gray">20,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catep-pdtWrap">
+                        <div class="catep-pdt catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/05/5_1.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">세노비스</p>
+                                    <p class="name">프로폴리스 (60캡슐/60일분) x 2개 세트+(미니)x1 증정</p>
+                                    <div class="price">
+                                        <p class="p-red">48,300원</p>
+                                        <p class="p-gray">70,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/05/5_2.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">비타민하우스</p>
+                                    <p class="name">항균 프로폴리스 스프레이 1병(27일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">13,900원</p>
+                                        <p class="p-gray">20,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/05/5_3.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">소버스</p>
+                                    <p class="name">구강항균 프로폴리스 17 (90캡슐/30일분) x 2병</p>
+                                    <div class="price">
+                                        <p class="p-red">38,900원</p>
+                                        <p class="p-gray">56,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/05/5_4.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">GNC</p>
+                                    <p class="name">프로폴리스 플러스 (60정) 1개월분 x 2개</p>
+                                    <div class="price">
+                                        <p class="p-red">29,900원</p>
+                                        <p class="p-gray">70,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catep-pdt1 catep-css">
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/05/5_5.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">나우푸드</p>
+                                    <p class="name">브라질 그린 프로폴리스 60캡슐</p>
+                                    <div class="price">
+                                        <p class="p-red">30,000원</p>
+                                        <p class="p-gray">50,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/05/5_6.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">내츄럴플러스</p>
+                                    <p class="name">굿앤키즈  그린 프로폴리스 스프레이 30ml(50일분)</p>
+                                    <div class="price">
+                                        <p class="p-red">9,900원</p>
+                                        <p class="p-gray">15,000원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/05/5_7.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">GC녹십자</p>
+                                    <p class="name">녹십자 스마일렌 항균 그린 프로폴리스 츄어블 60정 2통</p>
+                                    <div class="price">
+                                        <p class="p-red">13,800원</p>
+                                        <p class="p-gray"></p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                            <div class="pdtWrap">
+                                <div class="imgBox">
+                                    <img src="img/cateP/05/5_8.jpg">
+                                </div>
+                                <div class="textBox">
+                                    <p class="company">로니웰</p>
+                                    <p class="name">면역케어 레드 프로폴리스 60캡슐 x 2개 선물세트 (총 2개월분)</p>
+                                    <div class="price">
+                                        <p class="p-red">36,900원</p>
+                                        <p class="p-gray">73,800원</p>
+                                    </div>
+                                    <p class="tag">무료배송</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-more">
+            <a href="#">더보기 +</a>
+        </div>
+        <div class="end-line"></div>
+        <div id="tSale">
+            <div class="tSaleWrap">
+                <div class="tSaleWrap-bg">
+                    <div class="center">
+                        <div class="tSale-text">
+                            <p class="deal-sub">오늘만 이 가격</p>
+                            <div class="deal-timer"></div>
+                            <p class="deal-inform">오늘 하루만 이 가격으로 구매할 수 있는 상품을 바로 만나보세요.</p>
+                            <p class="deal-pdt">홍삼정 에브리타임리미티드 10ml*50포</p>
+                            <p class="deal-price">140,000원</p>
+                            <div class="price-detail">
+                                <span class="real-price">200,000원</span>
+                                <span class="saletext">30% 할인</span>
+                            </div>                       
+                            <a href="#">구매하기</a>
+                        </div>
+                        <div class="tSale-img">
+                            <img src="img/tDeal/deal1.PNG">
+                        </div>
+                    </div>
+                </div>
+                <div class="tSaleWrap-bg">
+                    <div class="center">
+                        <div class="tSale-text">
+                            <p class="deal-sub">오늘만 이 가격</p>
+                            <div class="deal-timer">시각표시</div>
+                            <p class="deal-inform">오늘 하루만 이 가격으로 구매할 수 있는 상품을 바로 만나보세요.</p>
+                            <p class="deal-pdt">일로향 60g(햇차, 2021)</p>
+                            <p class="deal-price">144,500원</p>
+                            <div class="price-detail">
+                                <span class="real-price">170,000</span>
+                                <span class="saletext">20% 할인</span>
+                            </div>
+
+                            <a href="#">구매하기</a>
+                        </div>
+                        <div class="tSale-img">
+                            <img src="img/tDeal/deal2.PNG">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tSalePager">
+                <a class="on" href="#"></a>
+                <a href="#"></a>
+            </div>
+            <div class="arrow-right arrow">
+                <a href="#">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+            </div>
+            <div class="arrow-left arrow">
+                <a href="#">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+            </div>
+        </div>
+        <div id="imgBanner">
+            <div class="center">
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+        <div id="newDeal">
+            <div class="center">
+                <div class="newD-bg">
+                    <div class="newD-title">
+                        <p class="newD-title-top">張몰 신상품</p>
+                        <P class="newD-title-detail">신상품을 소개합니다!</P>
+                    </div>
+                    <div class="newD-list">
+                        <!-- Slider main container -->
+                        <div class="swiper nDeal-swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper nDeal-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide nDeal-box">
+                                    <div class="nDealWrap">
+                                        <div class="imgBox">
+                                            <img src="img/nDeal/new01.jpg">
+                                        </div>
+                                        <div class="textBox">
+                                            <p class="company">비타민마을</p>
+                                            <p class="name">맘편한 어린이비타민D 아연 30포(1개월분)</p>
+                                            <div class="price">
+                                                <p class="p-red">13,900원</p>
+                                                <p class="p-gray">23,900원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide nDeal-box">
+                                    <div class="nDealWrap">
+                                        <div class="imgBox">
+                                            <img src="img/nDeal/new02.jpg">
+                                        </div>
+                                        <div class="textBox">
+                                            <p class="company">대웅생명과학</p>
+                                            <p class="name">포스트 프리 프로 바이오틱스 다이어트 10억 유산균 30포</p>
+                                            <div class="price">
+                                                <p class="p-red">19,900원</p>
+                                                <p class="p-gray">40,000원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide nDeal-box">
+                                    <div class="nDealWrap">
+                                        <div class="imgBox">
+                                            <img src="img/nDeal/new03.jpg">
+                                        </div>
+                                        <div class="textBox">
+                                            <p class="company">JW중외제약</p>
+                                            <p class="name">포스트 프리 프로바이오틱스 20억 유산균 플러스 람노시스 지지 30포</p>
+                                            <div class="price">
+                                                <p class="p-red">19,900원</p>
+                                                <p class="p-gray">40,000원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide nDeal-box">
+                                    <div class="nDealWrap">
+                                        <div class="imgBox">
+                                            <img src="img/nDeal/new04.jpg">
+                                        </div>
+                                        <div class="textBox">
+                                            <p class="company">내츄럴플러스</p>
+                                            <p class="name">포스파티딜세린 징코 브레인 60캡슐 1박스</p>
+                                            <div class="price">
+                                                <p class="p-red">29,900원</p>
+                                                <p class="p-gray">40,000원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide nDeal-box">
+                                    <div class="nDealWrap">
+                                        <div class="imgBox">
+                                            <img src="img/nDeal/new05.jpg">
+                                        </div>
+                                        <div class="textBox">
+                                            <p class="company">비타민마을</p>
+                                            <p class="name"> 미국직수입 8종복합기능성 쏘팔메토 옥타코사놀 파워 180캡슐 6개월분</p>
+                                            <div class="price">
+                                                <p class="p-red">41,900원</p>
+                                                <p class="p-gray">54,900원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide nDeal-box">
+                                    <div class="nDealWrap">
+                                        <div class="imgBox">
+                                            <img src="img/nDeal/new06.jpg">
+                                        </div>
+                                        <div class="textBox">
+                                            <p class="company">로니웰</p>
+                                            <p class="name">멀티케어 알티지 오메가3 1100 180캡슐 (6개월분)</p>
+                                            <div class="price">
+                                                <p class="p-red">34,900원</p>
+                                                <p class="p-gray">69,800원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide nDeal-box">
+                                    <div class="nDealWrap">
+                                        <div class="imgBox">
+                                            <img src="img/nDeal/new07.jpg">
+                                        </div>
+                                        <div class="textBox">
+                                            <p class="company">서울우유</p>
+                                            <p class="name">아침의주스 유기농 사과&레드비트&당근/망고&배&도라지 64팩X120ml</p>
+                                            <div class="price">
+                                                <p class="p-red">50,800원</p>
+                                                <p class="p-gray">96,000원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-line"></div>
+        <div id="member-custom">
+            <div class="center">
+                <div class="member-custom-title">
+                    <p class="memcustom-title-top">Only You! 맞춤 서비스</p>
+                    <P class="memcustom-title-detail">장몰의 노하우로 당신을 위한 상품을 찾아드립니다</P>
+                </div>
+                <div class="member-custom-cont">
+                    <div class="memcustom-flip-wrap">
+                        <div class="memcustom-flip-front memcustom-flip-color">
+                            <div class="memcustom-flip-wrap-line">
+                                <p class="flip-front-title">자가섭취용 맞춤상품</p>
+                                <p class="flip-front-middle"><span>나를 위한 맞춤상품</span>을<br/>추천받아보세요.<p>
+                                <p class="flip-front-detail">자세히보기 ></p>
+                                <div class="flip-front-icon">
+                                    <i class="fas fa-capsules"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="memcustom-flip-back memcustom-flip-color">
+                            <div class="memcustom-flip-wrap-line">
+                                <p>
+                                    그동안 장가몰을 이용한 고객님의 구매 알고리즘으로 구매에 적합한 상품을 골라드립니다.
+                                </p>
+                                <a href="#">로그인 하여 알고리즘 살펴보기 ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="memcustom-flip-wrap">
+                        <div class="memcustom-flip-front memcustom-flip-color">
+                            <div class="memcustom-flip-wrap-line">
+                                <p class="flip-front-title">선물용 맞춤상품</p>
+                                <p class="flip-front-middle"><span>특별한 선물을 위한 상품</span>을<br/>추천받아보세요.</p>
+                                <p class="flip-front-detail">자세히보기 ></p>
+                                <div class="flip-front-icon">
+                                    <i class="fas fa-gift"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="memcustom-flip-back memcustom-flip-color">
+                            <div class="memcustom-flip-wrap-line">
+                                <p>
+                                    연령, 성별 등 형식적인 선물이 아닌 꼭 필요한 선물을 골라드립니다.
+                                </p>
+                                <a href="#">선물 알고리즘 살펴보기 ></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="memcustom-flip-wrap">
+                        <div class="memcustom-flip-front memcustom-flip-color">
+                            <div class="memcustom-flip-wrap-line">
+                                <p class="flip-front-title">내가 정한 쿠폰</p>
+                                <p class="flip-front-middle"><span>기념일</span>을 등록하시고<br/>할인혜택을 받아보세요.</p>
+                                <p class="flip-front-detail">자세히보기 ></p>
+                                <div class="flip-front-icon">
+                                    <i class="fas fa-ticket-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="memcustom-flip-back memcustom-flip-color">
+                            <div class="memcustom-flip-wrap-line">
+                                <p>기념일을 최대 5개까지 지정하여 원하는 날짜에 쿠폰 사용이 가능합니다.</p>
+                                <a href="#">로그인하여 기념일 지정하기 ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="notice"></div>
+    </div>
+    <div id="footer">
+        <div class="center">
+            <div class="footer-left">
+                <div class="f-logo">
+                    <img src="img/logo-foot.png">
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="f-gnb">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">서비스 이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">임직원할인</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">전자공고</a></li>
+                </ul>
+            </div>
+            <div class="f-inform">
+                <div class="f-inform-left">
+                    <p>(주)장가몰</p>
+                    <p>대표이사:장의건 주소:서울특별시 용산구 치영대로 100, 14층(치영로2가) <br/>사업자등록번호: 323-54-234562 <br/>
+                    통신판매업신고번호:2019-서울용산-00012호 <br/> 호스팅제공자: (주)장가몰</p>
+                </div>
+                <div class="f-inform-right">
+                    <p>(주)장가몰은 장가몰 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자 이며 통신판매의 당사자가 아닙니다.<br/>
+                        따라서 입점판매자가 등록한 상품정보 및 거래에 대해 책임을 지지 않습니다.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,859 @@
+/* 1024px */
+
+@media screen and (max-width:1024px){
+    /* header area start! */
+/* 최상단 슬라이드 메뉴 */
+.h-pop {
+    font-family: 'IBMPlexSansKR-Regular';
+    background-color: #67625d;
+    padding: 20px 0;
+    position: relative;
+}
+.h-pop .center {
+    width:100%; margin:0 auto;
+}
+.h-pop .center h2 { 
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* 헤더컨텐츠 부분 */
+/* h-top */
+#header .center { 
+    font-family: 'IBMPlexSansKR-Regular';
+    width:100%; margin:0 auto;
+    padding:0 2%;
+}
+
+.gnb-wrap .center { 
+    width:100%; margin:0 auto;
+    padding:0 2%;
+}
+/* gnb-wrap -> gnb */
+
+
+/* gnb-wrap -> gnb-drop */
+
+/* header area end! */
+
+/* container area star!*/
+/* mvisual area */
+/* view */
+
+
+.btnTab {
+    width:100%;
+    position: absolute;
+    bottom:0; left:50%; transform: translateX(-50%);
+    z-index: 2; 
+    font-weight: bold;
+
+}
+.btnTab .center { 
+    width:100%;
+    display: flex;
+}
+
+
+/* tabUp on 클래스 */
+
+
+.viewCount {
+bottom:100px;
+}
+
+
+/* 슬라이드버튼 */
+.prevBtn , .nextBtn {
+    position: absolute;
+    top:50%; transform: translateY(-50%);
+}
+.prevBtn { left:50px;}
+.nextBtn { right:50px;}
+
+
+.end-line {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin:30px 0;
+}
+#cateP .center {
+    width:100%; margin:50px auto;
+
+}
+
+/* cateP 메뉴 스와이퍼 */
+
+.swiper-wrapper.cateP-btn-swiper { 
+    width:100%;
+    justify-content: center;}
+
+
+/* cteP-main 상품출력메뉴 */
+
+/* tSale */
+#tSale { overflow: hidden; position: relative;}
+
+#tSale .tSaleWrap {
+    width:200%; display: flex;
+}
+.tSaleWrap-bg {
+    background-color: #eac6ba;
+    padding:0px;
+    width:100%;    
+}
+.tSaleWrap-bg .center {
+    width:100%;
+    padding:0 5%;
+}
+.tSale-text { 
+    padding-right:20px;
+  
+}
+
+#tSale .tSalePager {
+    position: absolute; display: flex; align-items: center;
+    bottom:20px; left:50%; transform: translateX(-50%);
+}
+
+.arrow {
+    display: none;
+    position: absolute;
+    top:50%; transform: translateY(-50%);
+    
+}
+
+.arrow-right{
+    display: none;
+}
+.arrow-left {
+    display: none;
+
+}
+.arrow-right span{
+    display: none;
+
+  }
+
+  .arrow-left span{
+    display: none;
+
+  }
+
+
+  /* tSale area end! */
+
+  /* imgBanner area start!  */
+  #imgBanner .center {
+      width:90%; margin: 50px auto;
+      display: flex; flex-wrap: wrap;
+  }
+  #imgBanner .center a { 
+    display: block; 
+    width:100%; height:80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 1px;
+  }
+  /* imgBanner area end! */
+
+
+  /* newDeal area start! */
+  #newDeal .center {
+      width:100%; margin:50px auto;
+  }
+
+    /* newDeal area end! */
+  
+    /* member-custom area start! */
+  #member-custom .center {
+      width:100%; margin:0 auto 30px;
+  }
+  .member-custom-title {
+      text-align: center;
+  }
+  .member-custom-title .memcustom-title-top {
+    font-size: 30px; margin-bottom: 25px;;
+  }
+  .member-custom-title .memcustom-title-detail {
+    font-size: 20px; 
+    margin-bottom: 30px;
+  }
+
+  .member-custom-cont {
+      display: flex; flex-wrap: wrap;
+      
+  }
+  .memcustom-flip-wrap {
+      width:32.333333%; margin-right: 1%;
+      color:#fff;
+      position: relative;
+      height: 200px;
+      perspective:1000px; 
+      /*실제 회전되는 자식을 감싸는 부모에다가 반영한다.*/
+      /*원근감 속성 수치가 크면 원시 수치가 작으면 근시*/
+  }
+
+  .memcustom-flip-wrap:nth-child(1) .memcustom-flip-color {
+      background-color: #72a7c7;
+      width:100%;
+  }
+  .memcustom-flip-wrap:nth-child(2) .memcustom-flip-color {
+      background-color: #5eb299 ;
+      width:100%;
+  }
+  .memcustom-flip-wrap:nth-child(3) .memcustom-flip-color {
+      background-color: #b17b77;
+      width:100%;
+      margin-right: 0;
+  }
+    .memcustom-flip-front,.memcustom-flip-back { 
+        width:100%;
+        transition:all 1s;
+        position: absolute;
+        backface-visibility: hidden;
+    }
+
+  /* member-custom area end! */
+
+  /* footer area start! */
+  #footer {
+      background-color: #e0e0e0;
+      padding:50px 0;
+  }
+  #footer .center {
+      width:100%; margin:0 auto;
+      padding:0 2%;
+      display: flex; flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .footer-left { width:30%; margin-right: 5%;}
+  .footer-left img { width:100%;}
+  .footer-right { width:65%; padding-left: 5%;}
+  .f-gnb { display: flex;}
+  .f-gnb li { line-height: 50px;}
+  .f-gnb li a { 
+      display: inline-block; padding-right:7px;
+      color:#111; font-size: 14px;
+    
+    }
+  .f-gnb li::after { 
+      content: ""; display: inline-block;
+      width:2px; height:10px; margin-right:5px;
+      background-color: #111;
+    }
+   .f-gnb li:last-child::after {
+        content: ""; display: inline-block;
+        width:0px; height:12px;
+        background-color: #111;
+    }
+   .f-inform {
+       margin: 30px 0;
+       display: flex; flex-wrap: wrap;
+       justify-content: space-between;
+   } 
+
+   .f-inform .f-inform-left { width:50%;}
+   .f-inform .f-inform-right { width:45%;  margin-left: 5%;}
+   .f-inform > div p {
+       font-size: 14px; color:#111;
+       line-height: 20px;
+       margin-bottom: 10px;
+   }
+  /* footer area end! */
+
+
+  /* best page */
+  .best-bg {
+    background-image: url(../img/best/best-gb.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width:100%;
+    height:260px;
+}
+#b-container .center {
+    width:100%; margin: 50px auto;
+}
+
+}
+
+
+/* 768px */
+@media screen and (max-width:768px){
+
+    .h-pop {
+
+        display: none;
+    }
+
+    /* h-top */
+
+
+    #header .center .h-top ul {
+        display: flex; align-items: center; justify-content: right;
+        display: none;
+    }
+
+
+    /* h-cont 768px부터 사라짐*/
+    .h-cont { display: none;}
+
+    /* m-h-cont 768px부터 등장 */
+    .m-h-cont { 
+        padding-top: 15px;
+        display: flex; 
+        align-items: center;
+    }
+    .m-h-cont .m-gnb { width:15%;}
+    .m-h-cont h1 { 
+        width:70%;
+
+    }
+    .m-h-cont h1 a { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        color:#ad9259;
+        /* line-height: 100px;
+        height:100px; */
+    }
+    .m-h-cont .personal-menu{
+        width:15%;
+        display: flex;
+    }
+    .m-h-cont .personal-menu a{display:inline-block; margin-left:10%;}
+    .m-h-cont .personal-menu a img { width:100%;}
+
+    /* gnb 전체메뉴 포지션으로 감추기 */
+    .gnb-wrap .center .gnb .gnbBtn {
+        left:-99999px;
+    }
+
+    /* 모바일 메뉴 */
+    .m-gnb-wrap { 
+        display: block;
+    }
+    /* header-gnb 스와이퍼 메인 메뉴 */
+    .gnb-wrap .center .gnb {
+        display: flex;
+        position: relative;
+        top:3px;
+    }
+    .gnb-wrap .center .gnb .gnb-main {
+        width:100%;
+        margin-left: 0px;
+    }
+
+    /* view 이미지 변경 */
+    .view > .slide .bg {
+        display: none;
+        width:100%; 
+        height:60vh;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: bottom center;
+    }
+    .view > .slide .bg:nth-child(1) { display: block; background-image: url(../img/main-slide/m-slide1.jpg);}
+    .view > .slide .bg:nth-child(2) { background-image: url(../img/main-slide/m-slide2.jpg);}
+    .view > .slide .bg:nth-child(3) { background-image: url(../img/main-slide/m-slide3.jpg);}
+    .view > .slide .bg:nth-child(4) { background-image: url(../img/main-slide/m-slide4.jpg);}
+    .view > .slide .bg:nth-child(5) { background-image: url(../img/main-slide/m-slide5.jpg);}
+    .view > .slide .bg:nth-child(6) { background-image: url(../img/main-slide/m-slide6.jpg);}
+    .view > .slide .bg:nth-child(7) { background-image: url(../img/main-slide/m-slide7.jpg);}
+
+    .viewCount {
+        position: absolute; right:20px; bottom:30px;
+        width:100px; border-radius: 30px;
+        padding:10px 0;
+        background-color: #000;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* .btnTab 사라짐 */
+    .btnTab {
+        display: none;
+    }
+
+    /* cateP 메뉴 스와이퍼 margin-left값 변경*/
+    .swiper-slide.cateP-btn {  
+        margin-left:0px;
+        width:auto !important; 
+     }
+
+
+    /* cteP-main 상품출력메뉴 행당 개수 바뀜 4개->2개 */
+    .catep-css .pdtWrap {
+        width:45%; margin:0 2.5% 10px;
+        padding:0 15px;
+        transition: all .6s;
+    }
+
+    /* tSale */
+
+    .tSaleWrap-bg .center {
+        display: flex; flex-wrap: wrap;
+    }
+    .tSale-text { 
+        width:100%;
+        padding:0 10%;
+        color:#111;
+        display: flex;  flex-direction:  column;
+        justify-content: center;
+    }
+
+    .tSale-text .deal-sub { 
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+ 
+    .tSale-img { width:100%; padding:10%}
+    .tSale-img img {width:100%;}
+
+    #tSale .tSalePager {
+        position: absolute; display: flex; align-items: center;
+        bottom:30px; left:50%; transform: translateX(-50%);
+    }
+    .tSalePager > a {
+        display: inline-block; margin:0 10px;
+        width:10px; height:10px; border-radius: 50%;
+        background-color: rgba(0, 0, 0, .6);
+    }
+    .tSalePager > a.on {
+        width:15px; height:15px; 
+        background-color: rgba(0, 0, 0, .8);
+    }
+
+    /* image banner */
+    #imgBanner .center {
+        width:95%; margin: 50px auto;
+    }
+    #imgBanner .center a { 
+        width:100%; height:80px;
+        background-size:auto;
+        background-position: center right;
+    }
+    /* newDeal area */
+
+    .nDealWrap {
+    background-color: #fff; padding:20px 20px;
+    width:90%;
+    }
+
+    .nDealWrap .textBox .price {
+        display: flex; margin-top: 30px;
+    }
+
+    /* member-custom area start! */
+    #member-custom .center {
+        width:100%; margin:0 auto 30px;
+        padding:0 5%;
+    }
+
+    .member-custom-cont {
+        display: flex; flex-wrap: wrap;
+        
+    }
+    .memcustom-flip-wrap {
+        width:100%; margin-right: 0%;
+        padding:0; height:180px;
+
+    }
+
+    .memcustom-flip-wrap-line {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin:10px;
+    height: 150px;   
+    }
+    .memcustom-flip-back p {
+        font-size: 17px; line-height: 22px;
+        margin: 25px 0;
+    }
+
+    /* footer */
+    #footer {
+        background-color: #e0e0e0;
+        padding:50px 0;
+        text-align: center;
+    }
+    .footer-left { width:20%; margin-right: 0%;}
+    .footer-left img { width:100%;}
+    .footer-right { width:100%; padding-left: 0%;}
+    .f-gnb { display: flex; justify-content: center;}
+    .f-gnb li { line-height: 50px;}
+
+    .f-inform {
+        margin: 30px 0;
+        display: flex; flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+
+    .f-inform .f-inform-left { width:100%;}
+    .f-inform .f-inform-right { width:100%;  margin-left: 0%; margin-top:5%;}
+    .f-inform > div p {
+        font-size: 14px; color:#111;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* best page */
+    .best-tab {
+        display: flex;
+        justify-content: center;
+        width:100%; padding:0 5%;
+    }
+    .best-tab > li {width:23%; margin:0 1%;}
+    .best-tab > li a {
+        text-align: center; 
+    }
+    .best-tab > li a div { text-align: center;}
+    .best-tab > li a div:nth-child(1) {
+        margin-left: 17px;
+        width:80px; height:80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .best-tab > li a div:nth-child(2) {
+        font-size: 14px;
+        color:#111;
+        font-weight: bold;
+    } 
+    
+    /* best-tab -> .on */
+    .best-tab > li.on a div:nth-child(2) {
+        color:#d82228;
+    } 
+    
+    .best-tab > li.on:nth-child(1) a div:nth-child(1) { background-image: url(../img/best/icon-tab-best1.jpg); }
+    .best-tab > li.on:nth-child(2) a div:nth-child(1) { background-image: url(../img/best/icon-tab-pills1.jpg); }
+    .best-tab > li.on:nth-child(3) a div:nth-child(1) { background-image: url(../img/best/icon-tab-health1.jpg); }
+    .best-tab > li.on:nth-child(4) a div:nth-child(1) { background-image: url(../img/best/icon-tab-food1.jpg); }
+    
+    
+    /* best-cont */
+    .best-cont-wrap { 
+        display: none;
+        margin:30px 0;
+    }
+    .best-container .best-cont-wrap.on { display: block;}
+    
+    .best-cont {
+        display: flex; flex-wrap: wrap;
+    }
+    
+    .best-cont .best-cont-box {
+        width:47%; margin:0 1.5% 10px;
+        padding:0 15px;
+    }
+
+
+  
+
+
+}
+
+/* 640px */
+@media screen and (max-width:640px){
+    .m-h-cont h1 { 
+        width:70%;
+
+    }
+    .m-h-cont h1 a { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        color:#ad9259;
+        /* line-height: 100px;
+        height:100px; */
+    }
+
+    .m-h-cont h1 a img {width:45%;}
+
+    .m-gnb-wrap { 
+        width:100%;
+        top:0; left:-100%;
+    }
+
+    /* 헤더gnb 스와이퍼 세로값조절 */
+    .gnb-wrap .center .gnb {
+        display: flex;
+        position: relative;
+        top:10px;
+        line-height: 20px;
+    }
+
+    .gnb-wrap {
+        border-bottom: none;
+    }
+
+    /* mVisual 패딩값줘서 위치 내리기 */
+    #mVisual {
+        padding-top: 25px;
+    }
+    /* mVisual 배경이미지 높이값 변경 */
+    .view > .slide .bg {
+        display: none;
+        width:100%; 
+        height:50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+    /* 슬라이드버튼 위치 변경 */
+    .prevBtn , .nextBtn {
+        top:84%; transform: translateY(0%);
+    }
+    .prevBtn { left:unset; right:70px;}
+    .nextBtn { right:30px;}
+
+    .viewCount {
+        position: absolute; right:20px; bottom:80%;
+    }
+
+    /* cateP 메뉴 패딩값으로 모바일 화면에 적합하게 */
+    .cateP-btn-swiper {padding:0 100px;}
+
+    /* newDeal area */
+
+    .nDealWrap {
+        background-color: #fff; padding:20px 20px;
+        width:60%;
+    }
+
+    .nDealWrap .textBox .price {
+        display: flex; margin-top: 30px;
+    }
+
+    /* footer 이미지, 폰트크기 변경*/
+    .footer-left { width:30%; margin-right: 0%;}
+    .f-gnb li a { 
+        display: inline-block; padding-right:5px;
+        color:#111; font-size: 13px;  
+      }
+
+
+}
+
+/* 480px */
+@media screen and (max-width:480px){
+
+    /* 헤더 로고 크기 변경 */
+
+    .m-h-cont {
+        padding-top: 10px;
+    }
+    .m-h-cont h1 a { 
+        font-size: 18px;
+    }
+    .m-h-cont h1 a img {width:45%;}
+
+    .gnb-wrap {
+        margin-top: 10px;
+        border-bottom: none;
+    }
+
+
+    /* mVisual 패딩값줘서 위치 올리기 */
+    #mVisual {
+        padding-top: 20px;
+    }
+    /* mVisual 배경이미지 높이값 변경 */
+    .view > .slide .bg {
+        height:45vh;
+    }
+    .viewCount { /*view count 크기 변경*/
+        width:70px; border-radius: 30px;
+    }
+    /* mVisual 버튼 위치 변경 */
+    .prevBtn , .nextBtn {
+        top:80%; transform: translateY(0%);
+    }
+    .prevBtn { left:unset; right:60px;}
+    .nextBtn { right:20px;}
+
+
+    /* cateP title 글자크기 변경 */
+    #cateP .cateP-title p {
+        font-size: 20px;
+    }
+    /* cateP tab 메뉴 크기 변경 */
+    .cateP-btn a {
+        padding: 7px 10px;
+        font-size: 14px;
+        margin-right: 7px;
+    }
+    /* cateP tab 메뉴 패딩값으로 모바일 화면에 적합하게 */
+    .cateP-btn-swiper {padding:0 80px;}
+
+    /* tSale 전체적으로 글자크기 변경 */
+    .tSale-text { 
+        padding:0 5%;
+    }
+    .tSale-text .deal-sub { 
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .tSale-text .deal-timer { 
+        font-size: 30px;
+        margin-bottom: 25px;   
+    }
+    .tSale-text .deal-inform {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .tSale-text .deal-pdt {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .tSale-text .deal-price { 
+        font-size: 17px;
+
+        margin-bottom: 15px;;
+    }
+    .tSale-text .real-price {
+        font-size: 13px;
+    }
+    .tSale-text .saletext {
+        font-size: 13px; 
+    }
+    .tSale-text a {
+        font-size: 15px;
+    }
+    .tSale-img { width:100%; padding:10% 5%;}
+
+    /* imgBanner 사이즈 조정 */
+    #imgBanner .center {
+        width:98%; margin: 20px auto;
+        display: flex; flex-wrap: wrap;
+    }
+    #imgBanner .center a { 
+        display: block; 
+        width:100%; height:70px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+        margin-bottom: 1px;
+      }
+    
+    /* newDeal 상품화면 사이즈 조정 */
+    #newDeal .center {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .nDealWrap {
+        width:40%;
+        height:400px;
+      }
+    .nDealWrap .imgBox {
+        width:100%; padding-right: 0%;
+        display: flex; flex-direction: column;
+        justify-content: center;  
+    }
+    .nDealWrap .textBox {
+        width:100%;
+        margin-top: 10px;
+    }  
+
+
+    /* memcustom-flip-back 마진탑값 조정 */
+    .memcustom-flip-back p {
+        font-size: 17px; line-height: 22px;
+        margin: 5px 0;
+    }
+
+    /* footer */
+    .footer-right { display:none;}
+
+
+
+    /* best page */
+    /* container 배경이미지 위치 조정 */
+    #b-container { margin-top: 20px;}
+
+
+    .best-tab {
+        display: flex;
+        width: 100%;
+        padding: 0%;
+    }
+    .best-tab > li a div:nth-child(1) {
+        margin-left: 10px;
+        width: 60px;
+        height: 60px;
+
+    }
+
+
+}
+
+/* 320px */
+@media screen and (max-width:320px){
+
+    .m-h-cont h1 a { 
+        font-size: 16px;
+    }
+    .m-h-cont .personal-menu a{display:none;}
+
+    /* view 이미지 변경 */
+    .view > .slide .bg {
+        height:30vh;
+    }
+    .viewCount { /*view count 크기 변경*/
+        bottom:unset; top:10%;
+        width:60px;
+        font-size: 16px;
+    }
+    /* mVisual 버튼 위치 변경 */
+    .prevBtn , .nextBtn {
+        top:75%; transform: translateY(0%);
+    }
+    .prevBtn { left:unset; right:60px;}
+    .nextBtn { right:20px;}
+
+
+
+    /* cateP tab 메뉴 패딩값으로 모바일 화면에 적합하게 */
+    .cateP-btn-swiper {padding:0 110px;}
+
+    /* cateP 상품출력 부분 가격 글자크기 조정 */
+    
+    .catep-css .pdtWrap .textBox .name {
+    color:#111; font-size: 14px;
+    height: 45px; line-height: 20px;
+    margin-bottom: 22px;
+}
+    .catep-css .pdtWrap .textBox .price {
+        display: flex; flex-wrap: wrap;
+    }
+    .catep-css .pdtWrap .textBox .price .p-red {
+        width:100%;
+        font-size: 17px; color:#d82228;
+        margin-right: 10px;
+    }
+    .catep-css .pdtWrap .textBox .price .p-gray{
+        width:100%;
+        color:#555; font-size: 13px; line-height: 20px;
+        text-decoration: line-through;
+    }
+    /* newDeal 상품화면 사이즈 조정 */
+    #newDeal .center {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .nDealWrap {
+        width: 34%;
+        height: 400px;
+    }
+
+}

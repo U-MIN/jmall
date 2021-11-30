@@ -1,0 +1,146 @@
+#j-container .center { 
+    width:65%; margin:0 auto;
+}
+.join-title {
+    text-align: center;
+}
+.join-title h2 { 
+    font-size: 30px; margin-top:40px;
+}
+.join-title > p {
+    font-size: 24px; margin:20px 0;
+}
+.join-title h4 {
+    font-size: 17px;
+} 
+
+.joinResult-title { 
+    text-align: center;
+    width:400px; margin:0 auto 100px;
+}
+
+.joinResult-title h2 { 
+    font-size: 30px; margin-top:100px;
+}
+
+.joinResult-title h4 {
+    font-size: 17px; margin-top: 40px;
+}
+.joinResult-title a {
+    width:300px; height:40px; line-height: 40px;
+    display: block; margin:20px auto;
+    background-color: #d82228;
+    color:#fff; font-weight: bold;
+}
+
+
+.line-box {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin:30px 0;
+}
+.config-wrap h3 {
+    font-size: 26px;
+}
+.config-wrap .config-box {
+    overflow: auto;
+    height: 88px;
+    margin-top: 8px;
+    padding: 12px;
+    border: 1px solid #dadada;
+    line-height: 15px;
+}
+.check { margin-top: 20px;}
+.box_change {margin-top: 20px;}
+
+/* 회원정보 입력란 */
+.join-cont-title h3 { 
+    font-size: 26px;
+}
+.join-cont-title p {
+    font-size: 17px; margin:10px 0;
+}
+.join-box {
+    border-top: 1px solid #dadada;
+    position: relative;
+
+}
+.join-box-label { 
+    float: left;
+    width:15%;
+    background-color: #f8f8f8;
+    padding:30px 0 30px 10px;
+    font-size: 15px;
+}
+.join-box-label.label-bot {
+    padding:30px 0 70px 10px;
+}
+.join-box-cont { 
+    float: left;
+    margin-left:5%;
+    width:80%;
+    padding:23px 0;
+    
+}
+.join-box-cont .text_box {
+    padding:5px; margin-right:10px;
+}
+.join-box-cont .id-confirm {
+    margin-right:10px;
+    height:27px; line-height: 27px; width:100px; border-radius: 0; border:none;
+    background-color: #666; color:#fff;
+}
+.join-box-cont .birth-box {
+    padding:2px; 
+}
+.join-box-cont .mail-domain-select {
+    padding:5px; margin: 0 10px;
+}
+.join-box-cont .num1 {
+    padding:5px; margin-right: 10px;
+}
+.join-box-cont .text_box1 {
+    padding:5px; margin:5px 5px 5px 0;
+    width:250px;
+}
+
+.radio_change {
+    margin-right: 10px;
+}
+
+.btn-box {
+    height:27px; line-height: 27px; width:100px; border-radius: 0; border:none;
+    background-color: #666; color:#fff;
+}
+.bot-line {
+    border-bottom: 1px solid #dadada; 
+}
+.join-btn {
+    margin:30px 0;
+    text-align: center;
+}
+.join-btn .join-submit {
+    display: inline-block; padding:10px 30px;
+    margin:0 30px;
+    background-color: #db2029;
+    color:#fff;
+    text-align: center;
+    border:none
+}
+
+.error_message {
+    position: absolute;
+    left: 246px;
+    bottom: 6px;
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+
+.join-box-cont input.error {border: 2px solid red; padding:5px; margin-right:10px;}
+.join-box-cont input.success {border: 2px solid green; padding:5px; margin-right:10px;}
+
+.join-box-cont input.error ~ .error_message {display: block !important;}
+.join-box-cont input.success ~ .error_message {display: none;}

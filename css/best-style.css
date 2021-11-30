@@ -1,0 +1,97 @@
+.best-bg {
+    background-image: url(../img/best/best-gb.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width:100%;
+    height:260px;
+}
+#b-container .center {
+    width:65%; margin: 50px auto;
+}
+.best-tab {
+    display: flex;
+    justify-content: center;
+}
+.best-tab > li { margin:0 50px;}
+.best-tab > li a {
+    text-align: center;
+}
+.best-tab > li a div:nth-child(1) {
+    width:106px; height:106px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.best-tab > li:nth-child(1) a div:nth-child(1) { background-image: url(../img/best/icon-tab-best.jpg); }
+.best-tab > li:nth-child(2) a div:nth-child(1) { background-image: url(../img/best/icon-tab-pills.jpg); }
+.best-tab > li:nth-child(3) a div:nth-child(1) { background-image: url(../img/best/icon-tab-health.jpg); }
+.best-tab > li:nth-child(4) a div:nth-child(1) { background-image: url(../img/best/icon-tab-food.jpg); }
+
+.best-tab > li a div:nth-child(2) {
+    font-size: 14px;
+    color:#111;
+    font-weight: bold;
+} 
+
+/* best-tab -> .on */
+.best-tab > li.on a div:nth-child(2) {
+    color:#d82228;
+} 
+
+
+.best-tab > li.on:nth-child(1) a div:nth-child(1) { background-image: url(../img/best/icon-tab-best1.jpg); }
+.best-tab > li.on:nth-child(2) a div:nth-child(1) { background-image: url(../img/best/icon-tab-pills1.jpg); }
+.best-tab > li.on:nth-child(3) a div:nth-child(1) { background-image: url(../img/best/icon-tab-health1.jpg); }
+.best-tab > li.on:nth-child(4) a div:nth-child(1) { background-image: url(../img/best/icon-tab-food1.jpg); }
+
+
+/* best-cont */
+.best-cont-wrap { 
+    display: none;
+    margin:30px 0;
+}
+.best-container .best-cont-wrap.on { display: block;}
+
+.best-cont {
+    display: flex; flex-wrap: wrap;
+}
+
+.best-cont .best-cont-box {
+    width:22%; margin:0 1.5% 10px;
+    padding:0 15px;
+    transition: all .6s;
+}
+.best-cont .best-cont-box:hover {
+    box-shadow: 3px 3px 10px #e0e0e0;
+}
+.best-cont .best-cont-box .imgBox img { width:100%;}
+.best-cont .best-cont-box .textBox {
+    margin:20px 0;
+}
+.best-cont .best-cont-box .textBox .company {
+    font-size: 13px;
+    color:#555;
+    font-weight: bold;
+}
+.best-cont .best-cont-box .textBox .name {
+    color:#111; font-size: 14px;
+    height: 24px; line-height: 20px;
+    margin-bottom: 22px;
+}
+.best-cont .best-cont-box .textBox .price {
+    display: flex; margin-top: 15px;
+}
+.best-cont .best-cont-box .textBox .price .p-red {
+    font-size: 20px; color:#d82228;
+}
+.best-cont .best-cont-box .textBox .price .p-gray{
+    color:#555; font-size: 13px; line-height: 20px;
+    text-decoration: line-through;
+}
+.best-cont .best-cont-box .textBox .tag {
+    background-color: #ad9259;
+    color:#fff;
+    margin-top: 10px;
+    width: 70px; text-align: center;
+    padding:5px 0px; font-size: 13px;
+}

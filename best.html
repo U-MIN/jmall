@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장가몰</title>
+    <!-- 파비콘 -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-32x32.png">
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/best-style.css">
+    <link rel="stylesheet" href="css/m-style.css">
+    <!-- script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/best-style.js"></script>
+
+
+
+</head>
+<body>
+    <div id="header">
+        <div class="h-pop">
+            <div class="center">
+                <h2>지금 가입하면 5천원 할인 쿠폰 증정</h2><button class="btn-pop"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="h-top">
+                <ul>
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="joinpage.html">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <div class="h-cont">
+                <h1><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+                <div class="srch-wrap">
+                    <input type="text" placeholder="" id="dvSrhBar" class="srhBar">
+                    <a href="#"><img src="img/header/ico-srch.png" alt="" id="dvSrhImg"></a>
+                </div>
+                <div class="personal-menu">
+                    <a href="#"><img src="img/header/ico-personal-menu1.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu2.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu3.png" alt=""></a>
+                </div>
+            </div>
+            <div class="m-h-cont"> <!-- 768px부터 적용-->
+                <div class="m-gnb">
+                    <div class="gnb">
+                        <a href="#" class="m-gnbBtn">
+                            <img src="img/header/ico-gnb-open.png">
+                        </a>
+                    </div>                
+                </div>
+                <h1>
+                    <a href="index.html">
+                        <p>건강식품전물몰</p>
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </h1>
+                <div class="personal-menu">
+                    <a href="#"><img src="img/header/ico-personal-menu1.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu2.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="gnb-wrap">
+            <div class="center">
+                <div class="gnb">
+                    <span class="gnbBtn">
+                        <img src="img/header/ico-gnb-open.png">
+                        <a href="#">전체메뉴</a>
+                    </span>
+                    <!-- Slider main container -->
+                    <div class="swiper header-gnb gnb-main">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide gnb-main-menu"><a href="#">베스트</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">특별할인전</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">제주쇼핑♥</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">매장픽업</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">맞춤상품</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">특별포장</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">해외브랜드관</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">이벤트</a></div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="gnb-drop">
+                    <div class="gnb-1d">
+                        <h2 class="on" data-num="0"><a href="#">장가</a></h2>
+                        <h2 data-num="1"><a href="#">No.1 건강기능식품</a></h2>
+                        <h2 data-num="2"><a href="#">헬스푸드</a></h2>
+                        <h2 data-num="3"><a href="#">안심먹거리</a></h2>
+                        <h2 data-num="4"><a href="#">건강이야기</a></h2>
+                    </div>
+                    <div class="gnb-2d-box">
+                        <ul>
+                            <li><a href="#">홍삼</a></li>
+                            <li><a href="#">녹용</a></li>
+                            <li><a href="#">여성남성</a></li>
+                            <li><a href="#">키즈청소년</a></li>
+                            <li><a href="#">알파프로젝트</a></li>
+                            <li><a href="#">선물세트</a></li>
+                            <li><a href="#">굿베이스</a></li>
+                            <li><a href="#">지니펫</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">장 건강</a></li>
+                            <li><a href="#">눈 건강</a></li>
+                            <li><a href="#">비타민류</a></li>
+                            <li><a href="#">혈관 건강</a></li>
+                            <li><a href="#">간 건강</a></li>
+                            <li><a href="#">피부 건강</a></li>
+                            <li><a href="#">체지방 감소</a></li>
+                            <li><a href="#">관절/뼈 건강</a></li>
+                            <li><a href="#">기억력/인지력 개선</a></li>                           
+                        </ul>
+                        <ul>
+                            <li><a href="#">뉴트리푸드</a></li>
+                            <li><a href="#">뷰티푸드</a></li>
+                            <li><a href="#">컬러푸드</a></li>
+                            <li><a href="#">식사대용푸드</a></li>
+                            <li><a href="#">간편푸드(간식/차/음료)</a></li>
+                            <li><a href="#">헬스/단백질</a></li>
+                            <li><a href="#">환자영양식/체중조절식</a></li>
+                            <li><a href="#">비건푸드</a></li>
+                            <li><a href="#">선물세트</a></li>                          
+                        </ul>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#">JQ인증 단독관</a></li>
+                            <li><a href="#">ORGA 브랜드관</a></li>
+                            <li><a href="#">식사대용푸드</a></li>
+                            <li><a href="#">설성목장 브랜드관</a></li>
+                            <li><a href="#">냉장/냉동 간편식</a></li>
+                            <li><a href="#">간편식</a></li>
+                            <li><a href="#">농산품</a></li>
+                            <li><a href="#">면/양념/오일</a></li>
+                            <li><a href="#">음료/간식</a></li>
+                            <li><a href="#">축산품</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-gnb-wrap">
+        <div class="m-gnb-top">
+            <p>장몰에 오신것을 환영합니다</p>
+            <a class="m-close" href="#"><i class="fas fa-times"></i></a>
+        </div>
+        <ul class="m-gnb-util">
+            <li><a href="login.html">로그인</a></li>
+            <li><a href="joinpage.html">회원가입</a></li>
+            <li><a href="#">주문/배송</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+        <div class="m-gnb-title">전체메뉴</div>
+        <div class="gnb-drop">
+            <div class="m-gnb-1d">
+                <h2 class="on" data-num="0"><a href="#">장가</a></h2>
+                <h2 data-num="1"><a href="#">No.1 건강기능식품</a></h2>
+                <h2 data-num="2"><a href="#">헬스푸드</a></h2>
+                <h2 data-num="3"><a href="#">안심먹거리</a></h2>
+                <h2 data-num="4"><a href="#">건강이야기</a></h2>
+            </div>
+            <div class="m-gnb-2d-box">
+                <ul>
+                    <li><a href="#">홍삼</a></li>
+                    <li><a href="#">녹용</a></li>
+                    <li><a href="#">여성남성</a></li>
+                    <li><a href="#">키즈청소년</a></li>
+                    <li><a href="#">알파프로젝트</a></li>
+                    <li><a href="#">선물세트</a></li>
+                    <li><a href="#">굿베이스</a></li>
+                    <li><a href="#">지니펫</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">장 건강</a></li>
+                    <li><a href="#">눈 건강</a></li>
+                    <li><a href="#">비타민류</a></li>
+                    <li><a href="#">혈관 건강</a></li>
+                    <li><a href="#">간 건강</a></li>
+                    <li><a href="#">피부 건강</a></li>
+                    <li><a href="#">체지방 감소</a></li>
+                    <li><a href="#">관절/뼈 건강</a></li>
+                    <li><a href="#">기억력/인지력 개선</a></li>                           
+                </ul>
+                <ul>
+                    <li><a href="#">뉴트리푸드</a></li>
+                    <li><a href="#">뷰티푸드</a></li>
+                    <li><a href="#">컬러푸드</a></li>
+                    <li><a href="#">식사대용푸드</a></li>
+                    <li><a href="#">간편푸드(간식/차/음료)</a></li>
+                    <li><a href="#">헬스/단백질</a></li>
+                    <li><a href="#">환자영양식/체중조절식</a></li>
+                    <li><a href="#">비건푸드</a></li>
+                    <li><a href="#">선물세트</a></li>                          
+                </ul>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">JQ인증 단독관</a></li>
+                    <li><a href="#">ORGA 브랜드관</a></li>
+                    <li><a href="#">식사대용푸드</a></li>
+                    <li><a href="#">설성목장 브랜드관</a></li>
+                    <li><a href="#">냉장/냉동 간편식</a></li>
+                    <li><a href="#">간편식</a></li>
+                    <li><a href="#">농산품</a></li>
+                    <li><a href="#">면/양념/오일</a></li>
+                    <li><a href="#">음료/간식</a></li>
+                    <li><a href="#">축산품</a></li>                            
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="b-container">
+        <div class="best-bg">
+        </div>
+        <div class="center">
+            <ul class="best-tab">
+                <li class="on">
+                    <a href="#">
+                        <div class="best-tab-icon"></div>
+                        <div class="best-tab-name">장가몰</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="best-tab-icon"></div>
+                        <div class="best-tab-name">건강기능식품</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="best-tab-icon"></div>
+                        <div class="best-tab-name">헬스푸드</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="best-tab-icon"></div>
+                        <div class="best-tab-name">안심먹거리</div>
+                    </a>
+                </li>
+            </ul>
+            <div class="best-container">
+                <div class="best-cont-wrap on">
+                    <div class="best-cont">
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/best/img1.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[정관장]</span>
+                                <span class="name">홍이장군 키즈랩 프로바이오틱스 60포 (2개월) </span>
+                                <div class="price">
+                                    <p class="p-red">40,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/best/img2.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[정관장]</span>
+                                <span class="name">홍삼원골드세트 50ml*20포</span>
+                                <div class="price">
+                                    <p class="p-red">27,500원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/best/img3.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[정관장]</span>
+                                <span class="name">홍삼정 에브리타임리미티드 10ml*50포</span>
+                                <div class="price">
+                                    <p class="p-red">200,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/best/img4.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[정관장]</span>
+                                <span class="name">활기력 20ml*16병</span>
+                                <div class="price">
+                                    <p class="p-red">43,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/best/img5.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[정관장]</span>
+                                <span class="name">홍삼정 에브리타임 밸런스 10ml*30포 (30일분)</span>
+                                <div class="price">
+                                    <p class="p-red">75,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/best/img6.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[정관장]</span>
+                                <span class="name">홍삼정 에브리타임리미티드 10ml*30포 (30일분)</span>
+                                <div class="price">
+                                    <p class="p-red">125,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/best/img7.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[정관장]</span>
+                                <span class="name">화애락진 70ml*30포 (30일분)</span>
+                                <div class="price">
+                                    <p class="p-red">160,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/best/img8.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[정관장]</span>
+                                <span class="name">홍삼정 240g (80일분)   </span>
+                                <div class="price">
+                                    <p class="p-red">198,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-cont-wrap">    
+                    <div class="best-cont">
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/pills/img1.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[안국건강]</span>
+                                <span class="name">루테인지아잔틴미니 120캡슐+(증)콜라겐츄 1봉지+쇼핑백</span>
+                                <div class="price">
+                                    <p class="p-red">35,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/pills/img2.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[얼라이브]</span>
+                                <span class="name">원스데일리 50+, 칼슘마그네슘 선물세트 / 각 60일분, 45일분</span>
+                                <div class="price">
+                                    <p class="p-red">45,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/pills/img3.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[세노비스]</span>
+                                <span class="name">수퍼바이오틱스 Lp299v 유산균 (30캡슐) x 2개세트</span>
+                                <div class="price">
+                                    <p class="p-red">52,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/pills/img4.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[블랙모어스]</span>
+                                <span class="name">칼슘 마그네슘 플러스 비타민D 60정 new 2개입 선물세트</span>
+                                <div class="price">
+                                    <p class="p-red">34,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/pills/img5.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[네이처메이드]</span>
+                                <span class="name">남여 멀티비타민 SET (멀티 포 우먼+멀티 포 맨) + 쇼핑백[증정] </span>
+                                <div class="price">
+                                    <p class="p-red">63,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/pills/img6.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[자미에슨]</span>
+                                <span class="name">츄어블 멀티비타민 60정*3병(180일분) + 선물박스</span>
+                                <div class="price">
+                                    <p class="p-red">30,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/pills/img7.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[솔가]</span>
+                                <span class="name">네이처바이트 종합비타민 30정 + 오메가-3 700 DHA/EPA 30캡슐</span>
+                                <div class="price">
+                                    <p class="p-red">44,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/pills/img8.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[드시모네]</span>
+                                <span class="name">데일리 30포(30일분)x1박스</span>
+                                <div class="price">
+                                    <p class="p-red">118,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-cont-wrap">         
+                    <div class="best-cont">
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/health/img1.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[함익병 크릴오일]</span>
+                                <span class="name">[함익병 크릴오일] 크릴56(30일분)*3박스 + 크릴56 미니2개(110일분)</span>
+                                <div class="price">
+                                    <p class="p-red">84,800원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/health/img2.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[롯데헬스원]</span>
+                                <spanp class="name">초유프로틴365 더블세트</spanp>
+                                <div class="price">
+                                    <p class="p-red">90,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/health/img3.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[풀무원]</span>
+                                <span class="name">건강즙 모음전/헛개 석류 울금등 13종/5만원이상구매시 니어네이처 1박스증정</span>
+                                <div class="price">
+                                    <p class="p-red">27,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/health/img4.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[필네이처]</span>
+                                <span class="name">리타 베트남 100% 노니원액 주스 (1000ml x3) 선물세트</span>
+                                <div class="price">
+                                    <p class="p-red">37,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/health/img5.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[보의당]</span>
+                                <span class="name">[쇼핑백증정] 박경호 통곡물 한끼선식 2+1 총3박스</span>
+                                <div class="price">
+                                    <p class="p-red">20,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/health/img6.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[내츄럴플러스]</span>
+                                <span class="name">보스웰리아정 60정 10병</span>
+                                <div class="price">
+                                    <p class="p-red">67,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/health/img7.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[광동생활건강]</span>
+                                <span class="name">광동 더 순수한 유기농 석류 NFC 21포 1박스</span>
+                                <div class="price">
+                                    <p class="p-red">15,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/health/img8.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[비타민마을]</span>
+                                <span class="name">새싹보리 1000 분말스틱 6박스(총180포)</span>
+                                <div class="price">
+                                    <p class="p-red">23,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-cont-wrap">         
+                    <div class="best-cont">
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/food/img1.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[장몰 X JQ인증]</span>
+                                <span class="name">제주흑돼지 앞다리살 500g (JQ인증,이어도포크)</span>
+                                <div class="price">
+                                    <p class="p-red">8,500원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/food/img2.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[장몰 X JQ인증]</span>
+                                <span class="name">제주흑돼지 삼겹살 1kg (JQ인증,이어도포크)</span>
+                                <div class="price">
+                                    <p class="p-red">37,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/food/img3.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[풀무원]</span>
+                                <span class="name">네번 구워 김밥이 더욱 향긋한 김밥 김 (20g)x10봉</span>
+                                <div class="price">
+                                    <p class="p-red">19,900원</p>
+                                    <p class="p-gray">120,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/food/img4.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[장몰 X JQ인증]</span>
+                                <span class="name">제주백돼지 삼겹살 500g (JQ인증,이어도포크)</span>
+                                <div class="price">
+                                    <p class="p-red">12,800원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/food/img5.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[장몰 X JQ인증]</span>
+                                <span class="name">[탐라인] 제주 백돼지 삼겹살 500g(JQ인증)</span>
+                                <div class="price">
+                                    <p class="p-red">15,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/food/img6.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[장몰 X JQ인증]</span>
+                                <span class="name">제주흑돼지 목살 500g (JQ인증,이어도포크)</span>
+                                <div class="price">
+                                    <p class="p-red">21,800원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/food/img7.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[장몰 X JQ인증]</span>
+                                <span class="name">제주백돼지 삼겹살 2kg (JQ인증,이어도포크)</span>
+                                <div class="price">
+                                    <p class="p-red">52,900원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                        <div class="best-cont-box">
+                            <div class="imgBox">
+                                <img src="img/best/tab-cont/food/img8.jpg">
+                            </div>
+                            <div class="textBox">
+                                <span class="company">[장몰 X JQ인증]</span>
+                                <span class="name">[증정]탐라인 제주 백돼지 목살 500g (JQ인증)</span>
+                                <div class="price">
+                                    <p class="p-red">15,000원</p>
+                                </div>
+                                <p class="tag">무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+      
+
+  
+        </div>
+
+    </div>
+    <div id="footer">
+        <div class="center">
+            <div class="footer-left">
+                <div class="f-logo">
+                    <img src="img/logo-foot.png">
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="f-gnb">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">서비스 이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">임직원할인</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">전자공고</a></li>
+                </ul>
+            </div>
+            <div class="f-inform">
+                <div class="f-inform-left">
+                    <p>(주)장가몰</p>
+                    <p>대표이사:장의건 주소:서울특별시 용산구 치영대로 100, 14층(치영로2가) <br/>사업자등록번호: 323-54-234562 <br/>
+                    통신판매업신고번호:2019-서울용산-00012호 <br/> 호스팅제공자: (주)장가몰</p>
+                </div>
+                <div class="f-inform-right">
+                    <p>(주)장가몰은 장가몰 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자 이며 통신판매의 당사자가 아닙니다.<br/>
+                        따라서 입점판매자가 등록한 상품정보 및 거래에 대해 책임을 지지 않습니다.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

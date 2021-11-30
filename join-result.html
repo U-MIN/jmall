@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>장가몰 > 회원가입</title>
+        <!-- 파비콘 -->
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-32x32.png">
+        <!-- css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/join-style.css">
+        <!-- script -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/header.js"></script>
+        <script src="js/join.js"></script>
+
+    
+    
+    
+    </head>
+<body>
+    <div id="header">
+        <div class="h-pop">
+            <div class="center">
+                <h2>지금 가입하면 5천원 할인 쿠폰 증정</h2><button class="btn-pop"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="h-top">
+                <ul>
+                    <li><a href="login.php">로그인</a></li>
+                    <li><a href="joinpage.php">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <div class="h-cont">
+                <h1><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+                <div class="srch-wrap">
+                    <input type="text" placeholder="" id="dvSrhBar" class="srhBar">
+                    <a href="#"><img src="img/header/ico-srch.png" alt="" id="dvSrhImg"></a>
+                </div>
+                <div class="personal-menu">
+                    <a href="#"><img src="img/header/ico-personal-menu1.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu2.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu3.png" alt=""></a>
+                </div>
+            </div>
+            <div class="m-h-cont"> <!-- 768px부터 적용-->
+                <div class="m-gnb">
+                    <div class="gnb">
+                        <a href="#" class="m-gnbBtn">
+                            <img src="img/header/ico-gnb-open.png">
+                        </a>
+                    </div>                
+                </div>
+                <h1><a href="index.html"><p>건강식품전물몰</p><img src="img/logo.png" alt=""></a></h1>
+                <div class="personal-menu">
+                    <a href="#"><img src="img/header/ico-personal-menu1.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu2.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="gnb-wrap">
+            <div class="center">
+                <div class="gnb">
+                    <span class="gnbBtn">
+                        <img src="img/header/ico-gnb-open.png">
+                        <a href="#">전체메뉴</a>
+                    </span>
+                    <!-- Slider main container -->
+                    <div class="swiper header-gnb gnb-main">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide gnb-main-menu"><a href="#">베스트</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">특별할인전</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">제주쇼핑♥</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">매장픽업</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">맞춤상품</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">특별포장</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">해외브랜드관</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">이벤트</a></div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="gnb-drop">
+                    <div class="gnb-1d">
+                        <h2 class="on" data-num="0"><a href="#">장가</a></h2>
+                        <h2 data-num="1"><a href="#">No.1 건강기능식품</a></h2>
+                        <h2 data-num="2"><a href="#">헬스푸드</a></h2>
+                        <h2 data-num="3"><a href="#">안심먹거리</a></h2>
+                        <h2 data-num="4"><a href="#">건강이야기</a></h2>
+                    </div>
+                    <div class="gnb-2d-box">
+                        <ul>
+                            <li><a href="#">홍삼</a></li>
+                            <li><a href="#">녹용</a></li>
+                            <li><a href="#">여성남성</a></li>
+                            <li><a href="#">키즈청소년</a></li>
+                            <li><a href="#">알파프로젝트</a></li>
+                            <li><a href="#">선물세트</a></li>
+                            <li><a href="#">굿베이스</a></li>
+                            <li><a href="#">지니펫</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">장 건강</a></li>
+                            <li><a href="#">눈 건강</a></li>
+                            <li><a href="#">비타민류</a></li>
+                            <li><a href="#">혈관 건강</a></li>
+                            <li><a href="#">간 건강</a></li>
+                            <li><a href="#">피부 건강</a></li>
+                            <li><a href="#">체지방 감소</a></li>
+                            <li><a href="#">관절/뼈 건강</a></li>
+                            <li><a href="#">기억력/인지력 개선</a></li>                           
+                        </ul>
+                        <ul>
+                            <li><a href="#">뉴트리푸드</a></li>
+                            <li><a href="#">뷰티푸드</a></li>
+                            <li><a href="#">컬러푸드</a></li>
+                            <li><a href="#">식사대용푸드</a></li>
+                            <li><a href="#">간편푸드(간식/차/음료)</a></li>
+                            <li><a href="#">헬스/단백질</a></li>
+                            <li><a href="#">환자영양식/체중조절식</a></li>
+                            <li><a href="#">비건푸드</a></li>
+                            <li><a href="#">선물세트</a></li>                          
+                        </ul>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#">JQ인증 단독관</a></li>
+                            <li><a href="#">ORGA 브랜드관</a></li>
+                            <li><a href="#">식사대용푸드</a></li>
+                            <li><a href="#">설성목장 브랜드관</a></li>
+                            <li><a href="#">냉장/냉동 간편식</a></li>
+                            <li><a href="#">간편식</a></li>
+                            <li><a href="#">농산품</a></li>
+                            <li><a href="#">면/양념/오일</a></li>
+                            <li><a href="#">음료/간식</a></li>
+                            <li><a href="#">축산품</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-gnb-wrap">
+        <div class="m-gnb-top">
+            <p>장몰에 오신것을 환영합니다</p>
+            <a class="m-close" href="#"><i class="fas fa-times"></i></a>
+        </div>
+        <ul class="m-gnb-util">
+            <li><a href="login.php">로그인</a></li>
+            <li><a href="joinpage.php">회원가입</a></li>
+            <li><a href="#">주문/배송</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+        <div class="m-gnb-title">전체메뉴</div>
+        <div class="gnb-drop">
+            <div class="m-gnb-1d">
+                <h2 class="on" data-num="0"><a href="#">장가</a></h2>
+                <h2 data-num="1"><a href="#">No.1 건강기능식품</a></h2>
+                <h2 data-num="2"><a href="#">헬스푸드</a></h2>
+                <h2 data-num="3"><a href="#">안심먹거리</a></h2>
+                <h2 data-num="4"><a href="#">건강이야기</a></h2>
+            </div>
+            <div class="m-gnb-2d-box">
+                <ul>
+                    <li><a href="#">홍삼</a></li>
+                    <li><a href="#">녹용</a></li>
+                    <li><a href="#">여성남성</a></li>
+                    <li><a href="#">키즈청소년</a></li>
+                    <li><a href="#">알파프로젝트</a></li>
+                    <li><a href="#">선물세트</a></li>
+                    <li><a href="#">굿베이스</a></li>
+                    <li><a href="#">지니펫</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">장 건강</a></li>
+                    <li><a href="#">눈 건강</a></li>
+                    <li><a href="#">비타민류</a></li>
+                    <li><a href="#">혈관 건강</a></li>
+                    <li><a href="#">간 건강</a></li>
+                    <li><a href="#">피부 건강</a></li>
+                    <li><a href="#">체지방 감소</a></li>
+                    <li><a href="#">관절/뼈 건강</a></li>
+                    <li><a href="#">기억력/인지력 개선</a></li>                           
+                </ul>
+                <ul>
+                    <li><a href="#">뉴트리푸드</a></li>
+                    <li><a href="#">뷰티푸드</a></li>
+                    <li><a href="#">컬러푸드</a></li>
+                    <li><a href="#">식사대용푸드</a></li>
+                    <li><a href="#">간편푸드(간식/차/음료)</a></li>
+                    <li><a href="#">헬스/단백질</a></li>
+                    <li><a href="#">환자영양식/체중조절식</a></li>
+                    <li><a href="#">비건푸드</a></li>
+                    <li><a href="#">선물세트</a></li>                          
+                </ul>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">JQ인증 단독관</a></li>
+                    <li><a href="#">ORGA 브랜드관</a></li>
+                    <li><a href="#">식사대용푸드</a></li>
+                    <li><a href="#">설성목장 브랜드관</a></li>
+                    <li><a href="#">냉장/냉동 간편식</a></li>
+                    <li><a href="#">간편식</a></li>
+                    <li><a href="#">농산품</a></li>
+                    <li><a href="#">면/양념/오일</a></li>
+                    <li><a href="#">음료/간식</a></li>
+                    <li><a href="#">축산품</a></li>                            
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="center">
+            <div class="joinResult-title">
+                <h2>회원가입 완료</h2>
+                <h4>장가 F&B 공식 쇼핑몰 회원이 되신 걸 축하드립니다.</h4>
+                <a href="#">로그인 하기</a>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <div class="center">
+            <div class="footer-left">
+                <div class="f-logo">
+                    <img src="img/logo-foot.png">
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="f-gnb">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">서비스 이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">임직원할인</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">전자공고</a></li>
+                </ul>
+            </div>
+            <div class="f-inform">
+                <div class="f-inform-left">
+                    <p>(주)장가몰</p>
+                    <p>대표이사:장의건 주소:서울특별시 용산구 치영대로 100, 14층(치영로2가) <br/>사업자등록번호: 323-54-234562 <br/>
+                    통신판매업신고번호:2019-서울용산-00012호 <br/> 호스팅제공자: (주)장가몰</p>
+                </div>
+                <div class="f-inform-right">
+                    <p>(주)장가몰은 장가몰 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자 이며 통신판매의 당사자가 아닙니다.<br/>
+                        따라서 입점판매자가 등록한 상품정보 및 거래에 대해 책임을 지지 않습니다.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

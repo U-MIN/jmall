@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>장가몰 > 회원가입</title>
+        <!-- 파비콘 -->
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-32x32.png">
+        <!-- css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/m-style.css">
+        <link rel="stylesheet" href="css/join-style.css">
+        <link rel="stylesheet" href="css/m-join-style.css">
+
+        <!-- script -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/header.js"></script>
+        <script src="js/join.js"></script>
+
+    
+    
+    
+    </head>
+    <div id="header">
+        <div class="h-pop">
+            <div class="center">
+                <h2>지금 가입하면 5천원 할인 쿠폰 증정</h2><button class="btn-pop"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="h-top">
+                <ul>
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="joinpage.html">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <div class="h-cont">
+                <h1><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+                <div class="srch-wrap">
+                    <input type="text" placeholder="" id="dvSrhBar" class="srhBar">
+                    <a href="#"><img src="img/header/ico-srch.png" alt="" id="dvSrhImg"></a>
+                </div>
+                <div class="personal-menu">
+                    <a href="#"><img src="img/header/ico-personal-menu1.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu2.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu3.png" alt=""></a>
+                </div>
+            </div>
+            <div class="m-h-cont"> <!-- 768px부터 적용-->
+                <div class="m-gnb">
+                    <div class="gnb">
+                        <a href="#" class="m-gnbBtn">
+                            <img src="img/header/ico-gnb-open.png">
+                        </a>
+                    </div>                
+                </div>
+                <h1><a href="index.html"><p>건강식품전물몰</p><img src="img/logo.png" alt=""></a></h1>
+                <div class="personal-menu">
+                    <a href="#"><img src="img/header/ico-personal-menu1.png" alt=""></a>
+                    <a href="#"><img src="img/header/ico-personal-menu2.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="gnb-wrap">
+            <div class="center">
+                <div class="gnb">
+                    <span class="gnbBtn">
+                        <img src="img/header/ico-gnb-open.png">
+                        <a href="#">전체메뉴</a>
+                    </span>
+                    <!-- Slider main container -->
+                    <div class="swiper header-gnb gnb-main">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide gnb-main-menu"><a href="#">베스트</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">특별할인전</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">제주쇼핑♥</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">매장픽업</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">맞춤상품</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">특별포장</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">해외브랜드관</a></div>
+                            <div class="swiper-slide gnb-main-menu"><a href="#">이벤트</a></div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="gnb-drop">
+                    <div class="gnb-1d">
+                        <h2 class="on" data-num="0"><a href="#">장가</a></h2>
+                        <h2 data-num="1"><a href="#">No.1 건강기능식품</a></h2>
+                        <h2 data-num="2"><a href="#">헬스푸드</a></h2>
+                        <h2 data-num="3"><a href="#">안심먹거리</a></h2>
+                        <h2 data-num="4"><a href="#">건강이야기</a></h2>
+                    </div>
+                    <div class="gnb-2d-box">
+                        <ul>
+                            <li><a href="#">홍삼</a></li>
+                            <li><a href="#">녹용</a></li>
+                            <li><a href="#">여성남성</a></li>
+                            <li><a href="#">키즈청소년</a></li>
+                            <li><a href="#">알파프로젝트</a></li>
+                            <li><a href="#">선물세트</a></li>
+                            <li><a href="#">굿베이스</a></li>
+                            <li><a href="#">지니펫</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">장 건강</a></li>
+                            <li><a href="#">눈 건강</a></li>
+                            <li><a href="#">비타민류</a></li>
+                            <li><a href="#">혈관 건강</a></li>
+                            <li><a href="#">간 건강</a></li>
+                            <li><a href="#">피부 건강</a></li>
+                            <li><a href="#">체지방 감소</a></li>
+                            <li><a href="#">관절/뼈 건강</a></li>
+                            <li><a href="#">기억력/인지력 개선</a></li>                           
+                        </ul>
+                        <ul>
+                            <li><a href="#">뉴트리푸드</a></li>
+                            <li><a href="#">뷰티푸드</a></li>
+                            <li><a href="#">컬러푸드</a></li>
+                            <li><a href="#">식사대용푸드</a></li>
+                            <li><a href="#">간편푸드(간식/차/음료)</a></li>
+                            <li><a href="#">헬스/단백질</a></li>
+                            <li><a href="#">환자영양식/체중조절식</a></li>
+                            <li><a href="#">비건푸드</a></li>
+                            <li><a href="#">선물세트</a></li>                          
+                        </ul>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#">JQ인증 단독관</a></li>
+                            <li><a href="#">ORGA 브랜드관</a></li>
+                            <li><a href="#">식사대용푸드</a></li>
+                            <li><a href="#">설성목장 브랜드관</a></li>
+                            <li><a href="#">냉장/냉동 간편식</a></li>
+                            <li><a href="#">간편식</a></li>
+                            <li><a href="#">농산품</a></li>
+                            <li><a href="#">면/양념/오일</a></li>
+                            <li><a href="#">음료/간식</a></li>
+                            <li><a href="#">축산품</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-gnb-wrap">
+        <div class="m-gnb-top">
+            <p>장몰에 오신것을 환영합니다</p>
+            <a class="m-close" href="#"><i class="fas fa-times"></i></a>
+        </div>
+        <ul class="m-gnb-util">
+            <li><a href="login.html">로그인</a></li>
+            <li><a href="joinpage.html">회원가입</a></li>
+            <li><a href="#">주문/배송</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+        <div class="m-gnb-title">전체메뉴</div>
+        <div class="gnb-drop">
+            <div class="m-gnb-1d">
+                <h2 class="on" data-num="0"><a href="#">장가</a></h2>
+                <h2 data-num="1"><a href="#">No.1 건강기능식품</a></h2>
+                <h2 data-num="2"><a href="#">헬스푸드</a></h2>
+                <h2 data-num="3"><a href="#">안심먹거리</a></h2>
+                <h2 data-num="4"><a href="#">건강이야기</a></h2>
+            </div>
+            <div class="m-gnb-2d-box">
+                <ul>
+                    <li><a href="#">홍삼</a></li>
+                    <li><a href="#">녹용</a></li>
+                    <li><a href="#">여성남성</a></li>
+                    <li><a href="#">키즈청소년</a></li>
+                    <li><a href="#">알파프로젝트</a></li>
+                    <li><a href="#">선물세트</a></li>
+                    <li><a href="#">굿베이스</a></li>
+                    <li><a href="#">지니펫</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">장 건강</a></li>
+                    <li><a href="#">눈 건강</a></li>
+                    <li><a href="#">비타민류</a></li>
+                    <li><a href="#">혈관 건강</a></li>
+                    <li><a href="#">간 건강</a></li>
+                    <li><a href="#">피부 건강</a></li>
+                    <li><a href="#">체지방 감소</a></li>
+                    <li><a href="#">관절/뼈 건강</a></li>
+                    <li><a href="#">기억력/인지력 개선</a></li>                           
+                </ul>
+                <ul>
+                    <li><a href="#">뉴트리푸드</a></li>
+                    <li><a href="#">뷰티푸드</a></li>
+                    <li><a href="#">컬러푸드</a></li>
+                    <li><a href="#">식사대용푸드</a></li>
+                    <li><a href="#">간편푸드(간식/차/음료)</a></li>
+                    <li><a href="#">헬스/단백질</a></li>
+                    <li><a href="#">환자영양식/체중조절식</a></li>
+                    <li><a href="#">비건푸드</a></li>
+                    <li><a href="#">선물세트</a></li>                          
+                </ul>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">JQ인증 단독관</a></li>
+                    <li><a href="#">ORGA 브랜드관</a></li>
+                    <li><a href="#">식사대용푸드</a></li>
+                    <li><a href="#">설성목장 브랜드관</a></li>
+                    <li><a href="#">냉장/냉동 간편식</a></li>
+                    <li><a href="#">간편식</a></li>
+                    <li><a href="#">농산품</a></li>
+                    <li><a href="#">면/양념/오일</a></li>
+                    <li><a href="#">음료/간식</a></li>
+                    <li><a href="#">축산품</a></li>                            
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="j-container">
+        <form id="userForm" action="db_insert.php" method="POST">
+            <div class="center">
+                <div class="join-title">
+                    <h2>회원가입</h2>
+                    <p>고객님 장가몰의 가입을 환영합니다.</p>
+                    <h4>회원가입약관 및 개인정보처리방침안내 약관에 동의하셔야 회원가입 하실 수 있습니다.</h4>
+                </div>
+                <div class="line-box">
+                </div>
+                <div class="config-wrap">
+                    <h3>회원가입약관</h3>
+                    <div class="config-box">
+                        <p>
+                            '본 홈페이지'는 회원님의 개인정보를 중요시하며, "정보통신망 이용촉진 및 정보보호"에 관한 법률을 준수하고 있습니다. <br/><br/>
+                            본 홈페이지은 개인정보취급방침을 통하여 고객님께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다. <br/><br/>
+                            본 홈페이지은 개인정보취급방침을 개정하는 경우 웹사이트 공지사항(또는 개별공지)을 통하여 공지할 것입니다. <br/><br/>
+                            회사의 개인정보취급방침은 다음과 같은 내용을 담고 있습니다. <br/><br/>
+                            1. 수집하는 개인정보의 항목 <br/>
+                            본 홈페이지은 회원가입, 상담, 서비스 신청 등등을 위해 아래와 같은 개인정보를 수집하고 있습니다.
+                            <br/><br/>
+                            가. 수집항목 <br/>
+                            수집항목 : 아이디, 비밀번호, 휴대전화번호, 지역, 회사주소, 상호명, 광고전화번호, 대부등록번호, 대부등록유효기간, 대표자이름, 대부업등록기관, 대부업등록기관전화번호, 접속 로그, 쿠키, 접속IP 정보
+                        </p>
+                    </div>
+                    <input id="check" type="checkbox" class="check" name="confirm" value="회원가입약관">
+                    <label for="check" class="box_change">회원가입약관에 동의합니다.</label>
+                </div>
+                <div class="line-box"></div>
+                <div class="config-wrap">
+                    <h3>개인정보취급방침</h3>
+                    <div class="config-box">
+                        <p>
+                            본 홈페이지(이하 “회사”라고 합니다)가 제공하는 인터넷 관련 서비스(이하 '서비스'라고 합니다.)를 회사가 운영하는 웹사이트 (이하 “본 홈페이지”이라고 합니다.)를 통해 서비스 이용자(이하 “이용자”라고 합니다.)에게 제공할 때 다음과 같은 내용으로 그 법적인 책임의 한계를 고지합니다.
+                            <br/><br/>
+                            2. 서비스 운영 책임
+                            <br/><br/>
+                            회사는 웹사이트 서비스 이용약관 및 기타 관련 법령에 따라 타인의 권리를 존중하며 이에 위반되는 사항이 없도록 노력합니다. 또한, 이용자 중 이를 위반하는 경우 사전 통지 없이 서비스 이용에 제한 조치를 받을 수 있습니다. 
+                            <br/><br/>
+                            3. 서비스에 대한 책임
+                            <br/><br/>
+                            - 이용자는 자료에 대한 신뢰 여부가 전적으로 이용자의 책임임을 인정합니다.
+                            <br/>
+                            - 웹사이트는 자료 및 서비스의 내용을 수정할 의무를 지지 않으며, 필요에 따라 개선할 수는 있습니다.
+                            <br/>
+                            - 웹사이트를 통하여 인터넷을 접속함에 있어 이용자의 개인적인 판단에 따라 접속하시기 바랍니다.
+                        </p>
+                    </div>
+                    <input id="check1" type="checkbox" class="check" name="confirm" value="개인정보">
+                    <label for="check1" class="box_change">개인정보취급방침에 동의합니다.</label>
+                </div>
+                <div class="line-box"></div>
+                <div class="join-cont">
+                    <div class="join-cont-title">
+                        <h3>개인정보입력</h3>
+                        <p>회원가입에 필요한 정보를 입력해주세요.</p>
+                    </div>
+                    <div class="join-box clear_fix ">
+                        <div class="join-box-label"><label for="id" class="id" >아이디</label></div>
+                        <div class="join-box-cont">    
+                            <input id="id" type="text" class="text_box" name="id">
+                            <p class="error_message">잘못된 입력입니다</p>
+                            <input id="btn" type="button" class="id-confirm" name="confirm" value="중복확인"><span>한글, 특수문자를 제외한 4~20자까지의 영문과 숫자로 입력해주세요.</span>
+                        </div>
+
+                    </div>
+                    <div class="join-box clear_fix">
+                        <div class="join-box-label"><label for="pass" class="pass" >비밀번호</label></div>
+                        <div class="join-box-cont">    
+                            <input id="pass" type="password" class="text_box" name="pass">
+                            <p class="error_message"></p>  
+                            <span>비밀번호는 4~12자 사이의 영문과 숫자 조합 형태로 입력해주세요.</span>
+                        </div>
+                                   
+                    </div>
+                    <div class="join-box clear_fix">
+                        <div class="join-box-label"><label for="pass_ok" class="pass" >비밀번호 확인</label></div>
+                        <div class="join-box-cont">    
+                            <input id="passCheck" type="password" class="text_box" name="passCheck">
+                            <p class="error_message"></p> 
+                        </div>           
+                    </div>
+                    <div class="join-box clear_fix">
+                        <div class="join-box-label"><label for="name" class="pass" >이름</label></div>
+                        <div class="join-box-cont">    
+                            <input id="name" type="text" class="text_box" name="name">
+                            <p class="error_message"></p>
+                        </div>             
+                    </div>
+                    <div class="join-box clear_fix">
+                        <div class="join-box-label"><label for="birth" class="pass" >생년월일</label></div>
+                        <div class="join-box-cont">
+                            <input id="birth" type="date" class="birth-box" name="birth">
+                            <p class="error_message"></p>
+                        </div>
+
+                    </div>
+                    <div class="join-box clear_fix">
+                        <div class="join-box-label">성별</div>
+                        <div class="join-box-cont">    
+                            <input type="radio" id="man" class="gender" name="gender" value="남성">
+                            <p class="error_message"></p>
+                            <label for="man" class="radio_change">남성</label>
+                            <input type="radio" id="woman" class="gender" name="gender" value="여성">
+                            <label for="woman" class="radio_change">여성</label>
+                        </div>            
+                    </div>
+                    <div class="join-box clear_fix">
+                        <div class="join-box-label"><label for="email" >이메일</label></div>
+                        <div class="join-box-cont">    
+                            <input id="email" type="text" class="text_box" name="email_first">
+                            <p class="error_message"></p>   
+                            <span>@</span>
+                            <select id="emailSelect" class="mail-domain-select" name="emailSelect">
+                                <option value="direct">선택하세요</option>
+                                <option value="naver.com">naver.com</option>
+                                <option value="gmail.com">gmail.com</option>
+                                <option value="daum.net">daum.net</option>
+                                <option value="direct">직접입력</option>
+                            </select>
+                            <input id="email_last" type="text" class="text_box" name="email_last" readonly>
+                        </div>
+          
+                    </div>
+    
+                    <div class="join-box clear_fix">
+                        <div class="join-box-label"><label for="phone" class="pass" >연락처</label></div>
+                        <div class="join-box-cont">    
+                            <select id="num" name="num1" class="num1">
+                                <option>010</option>
+                                <option>02</option>
+                                <option>031</option>
+                                <option>063</option>
+                            </select>
+                            <input id="phone" type="text" class="text_box" name="num2">
+                            <p class="error_message"></p>   
+                            <input id="phone1" type="text" class="text_box" name="num3">
+
+                            <span>해당 연락처는 아이디 비밀번호 찾기시 이용합니다.</span>
+                        </div>             
+                    </div>
+                    <div class="join-box bot-line clear_fix">
+                        <div class="join-box-label label-bot"><label for="addr" class="birth" >주소</label></div>
+                        <div class="join-box-cont">    
+                            <input type="text" id="postcode" class="text_box" placeholder="우편번호" name="postcode">
+                            <input type="button" class="btn-box" onclick="DaumPostcode()" value="우편번호 찾기"><br>
+                            <input type="text" id="roadAddress" class="text_box1" placeholder="도로명주소" name="roadAddress">
+                            <input type="text" id="jibunAddress" class="text_box1" placeholder="지번주소" name="jibunAddress">
+                            <span id="guide" style="color:#999;display:none"></span>
+                            <input type="text" id="detailAddress" class="text_box1" placeholder="상세주소" name="detailAddress">
+                        </div>
+                       
+                            <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+                            <script>
+                                //본 예제에서는 도로명 주소 표기 방식에 대한 법령에 따라, 내려오는 데이터를 조합하여 올바른 주소를 구성하는 방법을 설명합니다.
+                                function DaumPostcode() {
+                                    new daum.Postcode({
+                                        oncomplete: function(data) {
+                                            // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+                            
+                                            // 도로명 주소의 노출 규칙에 따라 주소를 표시한다.
+                                            // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                                            var roadAddr = data.roadAddress; // 도로명 주소 변수
+                                            var extraRoadAddr = ''; // 참고 항목 변수
+                            
+                                            // 법정동명이 있을 경우 추가한다. (법정리는 제외)
+                                            // 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
+                                            if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
+                                                extraRoadAddr += data.bname;
+                                            }
+                                            // 건물명이 있고, 공동주택일 경우 추가한다.
+                                            if(data.buildingName !== '' && data.apartment === 'Y'){
+                                               extraRoadAddr += (extraRoadAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+                                            }
+                                            // 표시할 참고항목이 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.
+                                            if(extraRoadAddr !== ''){
+                                                extraRoadAddr = ' (' + extraRoadAddr + ')';
+                                            }
+                            
+                                            // 우편번호와 주소 정보를 해당 필드에 넣는다.
+                                            document.getElementById('postcode').value = data.zonecode;
+                                            document.getElementById("roadAddress").value = roadAddr;
+                                            document.getElementById("jibunAddress").value = data.jibunAddress;
+                                            
+                                            // 참고항목 문자열이 있을 경우 해당 필드에 넣는다.
+                                            if(roadAddr !== ''){
+                                                document.getElementById("extraAddress").value = extraRoadAddr;
+                                            } else {
+                                                document.getElementById("extraAddress").value = '';
+                                            }
+                            
+                                            var guideTextBox = document.getElementById("guide");
+                                            // 사용자가 '선택 안함'을 클릭한 경우, 예상 주소라는 표시를 해준다.
+                                            if(data.autoRoadAddress) {
+                                                var expRoadAddr = data.autoRoadAddress + extraRoadAddr;
+                                                guideTextBox.innerHTML = '(예상 도로명 주소 : ' + expRoadAddr + ')';
+                                                guideTextBox.style.display = 'block';
+                            
+                                            } else if(data.autoJibunAddress) {
+                                                var expJibunAddr = data.autoJibunAddress;
+                                                guideTextBox.innerHTML = '(예상 지번 주소 : ' + expJibunAddr + ')';
+                                                guideTextBox.style.display = 'block';
+                                            } else {
+                                                guideTextBox.innerHTML = '';
+                                                guideTextBox.style.display = 'none';
+                                            }
+                                        }
+                                    }).open();
+                                }
+                            </script>
+                    </div>
+                    <div class="join-btn">
+                        <input type="submit" class="join-submit" value="회원가입">
+                        <input type="reset" class="join-submit" value="다시쓰기">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        <div class="center">
+            <div class="footer-left">
+                <div class="f-logo">
+                    <img src="img/logo-foot.png">
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="f-gnb">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">서비스 이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">임직원할인</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">전자공고</a></li>
+                </ul>
+            </div>
+            <div class="f-inform">
+                <div class="f-inform-left">
+                    <p>(주)장가몰</p>
+                    <p>대표이사:장의건 주소:서울특별시 용산구 치영대로 100, 14층(치영로2가) <br/>사업자등록번호: 323-54-234562 <br/>
+                    통신판매업신고번호:2019-서울용산-00012호 <br/> 호스팅제공자: (주)장가몰</p>
+                </div>
+                <div class="f-inform-right">
+                    <p>(주)장가몰은 장가몰 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자 이며 통신판매의 당사자가 아닙니다.<br/>
+                        따라서 입점판매자가 등록한 상품정보 및 거래에 대해 책임을 지지 않습니다.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
